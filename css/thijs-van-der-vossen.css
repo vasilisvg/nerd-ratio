@@ -53,6 +53,7 @@ body > article > h1,
 #home > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
+  font-size: 8em;
   background: deeppink;
   color: white;
   -webkit-flex: 32 1 32px;
@@ -204,6 +205,7 @@ h3 {
 
 img {
   height: auto;
+  display: block;
 }
 
 p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {

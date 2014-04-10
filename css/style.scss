@@ -46,6 +46,7 @@ body > .prevnext {
  body > footer > div:first-of-type,
  body > .prevnext > div:first-of-type {
      @if variable-exists(ss-h1) {
+         font-size: #{power($unit,$s-h1)}em;
          @media (max-width: 30em) {
              font-size: #{power($unit,$ss-h1)}em;
          }
@@ -213,6 +214,7 @@ h3 {
 }
 img {
     height: auto;
+    display: block;
 }
 p, #home article h1, h3, h2, textarea, input:not([type="submit"]),img {
     max-width: #{23*$unit}em;

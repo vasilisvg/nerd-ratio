@@ -196,6 +196,7 @@ h3 {
 
 img {
   height: auto;
+  display: block;
 }
 
 p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
