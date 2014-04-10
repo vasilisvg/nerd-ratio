@@ -1,0 +1,9 @@
+@function power ($x, $n) {
+ $ret: 1;
+
+ @for $i from 1 through $n {
+    $ret: $ret * $x;
+ }
+
+ @return $ret;
+}

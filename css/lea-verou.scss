@@ -1,0 +1,35 @@
+/*
+Inspired on the color scheme and the bravoure of lea.verou.me
+Reduced in quality by my own talent
+*/
+
+// colors
+$c-heading: #F06;
+$c-div: #FF7F2F;
+$c-content: #FFFFFF;
+$h-color: white;
+$c-color: black;
+
+// measures
+$unit : 1.618;
+
+// ratio for heading, div and content
+$p-h: 3;
+$p-c: 5;
+$p-d: 1;
+
+// Order of heading, div and content
+$o-h: 1;
+$o-c: 2;
+$o-d: 3;
+
+// size of headings is calculated like power($unit, $s-h1);
+$s-h1 : 3;
+$s-h2 : 2;
+$s-h3 : 1;
+
+// a border size
+$border : 1.5;
+
+
+@import "style.scss";

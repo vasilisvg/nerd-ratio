@@ -1,0 +1,353 @@
+/*
+Inspired on the color sceme and the bravoure of frankchimero.com
+Reduced in quality by my own talent
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: white;
+  height: 100%;
+}
+
+body {
+  font: 100%/1.5 helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 30em) {
+  body {
+    font-size: .8em;
+  }
+}
+
+/* @group Layout {{{
+================================================================= */
+body > article,
+body > footer,
+#home,
+body > .prevnext {
+  display: -webkit-flex;
+  display: flex;
+  line-height: 1.414;
+}
+
+body > article > *,
+body > footer > *,
+#home > *,
+body > .prevnext > * {
+  margin: 0;
+  overflow: hidden;
+  padding: 0 1.414rem;
+}
+
+body > footer > * {
+  padding-top: 3.99758em;
+  padding-bottom: 1.414em;
+}
+
+body > article > h1,
+#home > h1,
+body > footer > div:first-of-type,
+body > .prevnext > div:first-of-type {
+  font-size: 1.9994em;
+  background: black;
+  color: white;
+  -webkit-flex: 1.414 1 1.414px;
+  flex: 1.414 1 1.414px;
+  -webkit-order: 1;
+  order: 1;
+  padding: 0;
+}
+@media (max-width: 40em) {
+  body > article > h1,
+  #home > h1,
+  body > footer > div:first-of-type,
+  body > .prevnext > div:first-of-type {
+    -webkit-flex: 3.99758 1 3.99758px;
+    flex: 3.99758 1 3.99758px;
+  }
+}
+
+body > article > div:nth-of-type(1),
+#home > section,
+body > footer > nav,
+body > .prevnext > div:nth-of-type(2) {
+  background: white;
+  color: black;
+  -webkit-flex: 15.98068 1 15.98068px;
+  flex: 15.98068 1 15.98068px;
+  -webkit-order: 3;
+  order: 3;
+}
+@media (max-width: 40em) {
+  body > article > div:nth-of-type(1),
+  #home > section,
+  body > footer > nav,
+  body > .prevnext > div:nth-of-type(2) {
+    -webkit-flex: 15.98068 1 15.98068px;
+    flex: 15.98068 1 15.98068px;
+  }
+}
+
+#home > section {
+  padding: 1.414rem;
+}
+
+body > article > div:last-of-type,
+body > footer > div:last-of-type,
+body > .prevnext > div:last-of-type,
+#home > div {
+  background: #8c96a0;
+  -webkit-flex: 3.99758 1 3.99758px;
+  flex: 3.99758 1 3.99758px;
+  -webkit-order: 2;
+  order: 2;
+  padding: 0;
+}
+@media (max-width: 40em) {
+  body > article > div:last-of-type,
+  body > footer > div:last-of-type,
+  body > .prevnext > div:last-of-type,
+  #home > div {
+    -webkit-flex: 1.414 1 1.414px;
+    flex: 1.414 1 1.414px;
+  }
+}
+
+/* @end Layout }}} */
+/* @group Header {{{
+================================================================= */
+body > article > h1,
+#home > h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body > article h1 span,
+#home > h1 span {
+  display: block;
+  white-space: nowrap;
+  padding: 0.707rem;
+  -webkit-transform: rotate(90deg) translate(calc(-1.414rem - 1em), 0);
+  transform: rotate(90deg) translate(calc(-1.414rem - 1em), 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+body > article h1 a,
+#home > h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+body > article > h1 a:last-child:hover,
+body > article > h1 a:last-child:focus,
+#home > h1 a:last-child:hover,
+#home > h1 a:last-child:focus {
+  color: white;
+  background: none;
+}
+
+body > article h1 a:first-child:after {
+  content: ': ';
+}
+
+/* @end Header }}} */
+/* @group Content {{{
+================================================================= */
+#home > section > article {
+  margin: 0 0 2.82715em;
+}
+
+#home > section > article footer:before {
+  content: ' ';
+  border-bottom: 1px solid #8c96a0;
+  width: 100%;
+  max-width: 23em;
+  display: block;
+}
+
+#home > section > article footer {
+  margin: 1em 0;
+}
+
+#home > section > article footer ul {
+  margin: .25em 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #home > section > article footer:before {
+    -webkit-transform: scale(1, 0.5);
+    -webkit-transform-origin: 0 0;
+    transform: scale(1, 0.5);
+    transform-origin: 0 0;
+  }
+}
+div > p:first-child {
+  margin: .5em 0 1em;
+}
+
+a {
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: white;
+  background: black;
+}
+
+p {
+  margin: 1em 0;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h2 + ul,
+h3 + ul {
+  margin: -1em 0 1em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p, #home article h1, h3, h2, textarea, input:not([type="submit"]) {
+  max-width: 32.522em;
+}
+
+#home article h1 {
+  margin: 0;
+  border-bottom: 1px solid #8c96a0;
+}
+
+#home article h1 a {
+  text-decoration: none;
+}
+
+h2,
+legend,
+#home article h1 {
+  font-size: 1.414em;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h3,
+[itemprop="UserComment"] ul {
+  font-size: 1em;
+}
+
+[itemprop="UserComment"] {
+  margin: 1.9994em 0;
+}
+
+article aside,
+article > div > section {
+  margin: 3.99758em 0;
+}
+
+body > article > div > p:first-child {
+  font-size: 1.414em;
+  margin: .5em 0 1em;
+}
+@media (max-width: 75em) {
+  body > article > div > p:first-child {
+    line-height: 1.4;
+  }
+}
+
+input, textarea {
+  border: 1px solid #8c96a0;
+  padding: 0.3535em;
+}
+
+ul {
+  margin: 1em 0;
+  padding: 0;
+}
+
+article > div > section ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+}
+
+footer cite {
+  font-style: normal;
+}
+
+footer cite:before {
+  content: "Written by ";
+}
+
+article > div [itemprop="UserComment"] footer cite:before {
+  content: "";
+}
+
+article > div [itemprop="UserComment"] footer cite:after {
+  content: " commented ";
+}
+
+footer time:before {
+  content: " on ";
+}
+
+[itemprop="UserComment"] ul {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 0 0 1em;
+  font-size: inherit;
+  font-family: inherit;
+  background: white;
+  line-height: inherit;
+  width: 100%;
+  border-radius: .2em;
+}
+@media (max-width: 30em) {
+  input,
+  textarea {
+    font-size: 1.3em;
+  }
+}
+
+[type="submit"] {
+  background: auto;
+  width: auto;
+}
+
+textarea {
+  height: 10em;
+}
+
+/* @end Content }}} */

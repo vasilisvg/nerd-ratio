@@ -1,0 +1,32 @@
+/*
+Inspired on the color scheme and the bravoure of dailynerd.nl and lovenonsense.com
+Reduced in quality by my own talent
+*/
+
+// colors
+$c-heading: #037072;
+$c-div: #D42127;
+$c-content: #F5F5F5;
+$h-color: white;
+$c-color: black;
+
+// measures
+$unit : 1.458;
+
+// ratio for heading, div and content
+$p-h: 5;
+$p-c: 8;
+$p-d: 1;
+
+// Order of heading, div and content
+$o-h: 1;
+$o-c: 3;
+$o-d: 2;
+
+// size of headings is calculated like power($unit, $s-h1);
+$s-h1 : 3;
+$s-h2 : 2;
+$s-h3 : 1;
+
+
+@import "style.scss";

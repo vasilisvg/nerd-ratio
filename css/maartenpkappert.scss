@@ -1,0 +1,32 @@
+/*
+Maarten P. Kappert suggested this colour scheme and ratio
+How could I ignore a suggestion by such a talented designer?
+*/
+
+// colors
+$c-heading: #1C2336;
+$c-div: #464747;
+$c-content: #25716E;
+$h-color: white;
+$c-color: white;
+
+// measures
+$unit : 1.5;
+
+// ratio for heading, div and content
+$p-h: 3;
+$p-c: 5;
+$p-d: 1;
+
+// Order of heading, div and content
+$o-h: 2;
+$o-c: 3;
+$o-d: 1;
+
+// size of headings is calculated like power($unit, $s-h1);
+$s-h1 : 3;
+$s-h2 : 2;
+$s-h3 : 1;
+
+
+@import "style.scss";

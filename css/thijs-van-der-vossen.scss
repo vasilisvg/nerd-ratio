@@ -1,0 +1,41 @@
+/*
+Inspired on the color scheme and the bravoure of vandervossen.net
+Reduced in quality by my own talent
+*/
+
+// colors
+$c-heading: #FF1493;
+$c-div: #FFD900;
+$c-content: #fff;
+$h-color: white;
+$c-color: black;
+
+// measures
+$unit : 2;
+
+// ratio for heading, div and content
+$p-h: 5;
+$p-c: 6;
+$p-d: 2;
+
+// Order of heading, div and content
+$o-h: 1;
+$o-c: 3;
+$o-d: 2;
+
+// size of headings is calculated like power($unit, $s-h1);
+$s-h1 : 3;
+$s-h2 : 2;
+$s-h3 : 1;
+
+// alternative header sizings for smaller screens
+$ss-h1 : 2;
+$ss-h2 : 1;
+$ss-h3 : 0;
+$sp-h : 4;
+
+// a border size
+$border : 2;
+
+
+@import "style.scss";

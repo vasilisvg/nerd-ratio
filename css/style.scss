@@ -1,0 +1,347 @@
+@import "functions.scss";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    background: white;
+    height: 100%;
+}
+body {
+    font: 100%/1.5 helvetica, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    @media (max-width: 30em) {
+        font-size: .8em;
+    }
+}
+
+/* @group Layout {{{
+================================================================= */
+
+body > article,
+body > footer,
+#home,
+body > .prevnext {
+     display: -webkit-flex;
+     display: flex;
+     line-height: $unit;
+ }
+ body > article > *,
+ body > footer > *,
+ #home > *,
+ body > .prevnext > * {
+     margin: 0;
+     overflow: hidden;
+     padding: 0 #{$unit}rem;
+ }
+ body > footer > * {
+     padding-top: #{power($unit,4)}em;
+     padding-bottom: #{power($unit,1)}em;
+ }
+ body > article > h1,
+ #home > h1,
+ body > footer > div:first-of-type,
+ body > .prevnext > div:first-of-type {
+     @if variable-exists(ss-h1) {
+         @media (max-width: 30em) {
+             font-size: #{power($unit,$ss-h1)}em;
+         }
+     }
+     @else {
+         font-size: #{power($unit,$s-h1)}em;
+     }
+     background: $c-heading;
+     color: $h-color;
+     -webkit-flex: #{power($unit,$p-h)} 1 #{power($unit,$p-h)}px;
+     flex: #{power($unit,$p-h)} 1 #{power($unit,$p-h)}px;
+     @if variable-exists(pa-h) {
+         @media (max-width: 40em) {
+             -webkit-flex: #{power($unit,$pa-h)} 1 #{power($unit,$pa-h)}px;
+             flex: #{power($unit,$pa-h)} 1 #{power($unit,$pa-h)}px;
+         }
+     }
+     -webkit-order: $o-h;
+     order: $o-h;
+     padding: 0;
+ }
+
+
+ body > article > div:nth-of-type(1),
+ #home > section,
+ body > footer > nav,
+ body > .prevnext > div:nth-of-type(2) {
+     background: $c-content;
+     color: $c-color;
+     -webkit-flex: #{power($unit,$p-c)} 1 #{power($unit,$p-c)}px;
+     flex: #{power($unit,$p-c)} 1 #{power($unit,$p-c)}px;
+     @if variable-exists(pa-c) {
+         @media (max-width: 40em) {
+             -webkit-flex: #{power($unit,$pa-c)} 1 #{power($unit,$pa-c)}px;
+             flex: #{power($unit,$pa-c)} 1 #{power($unit,$pa-c)}px;
+         }
+     }
+     -webkit-order: $o-c;
+     order: $o-c;
+ }
+ #home > section {
+     padding: #{$unit}rem;
+ }
+ body > article > div:last-of-type,
+ body > footer > div:last-of-type,
+ body > .prevnext > div:last-of-type,
+ #home > div {
+     background: $c-div;
+     -webkit-flex: #{power($unit,$p-d)} 1 #{power($unit,$p-d)}px;
+     flex: #{power($unit,$p-d)} 1 #{power($unit,$p-d)}px;
+     @if variable-exists(pa-d) {
+         @media (max-width: 40em) {
+             -webkit-flex: #{power($unit,$pa-d)} 1 #{power($unit,$pa-d)}px;
+             flex: #{power($unit,$pa-d)} 1 #{power($unit,$pa-d)}px;
+         }
+     }
+     -webkit-order: $o-d;
+     order: $o-d;
+     padding: 0;
+ }
+
+/* @end Layout }}} */
+
+
+
+/* @group Header {{{
+================================================================= */
+
+body > article > h1,
+#home > h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+body > article h1 span,
+#home > h1 span {
+    display: block;
+    white-space: nowrap;
+    padding: #{$unit/2}rem;
+    -webkit-transform: rotate(90deg) translate(calc(-#{$unit}rem - 1em), 0);
+    transform: rotate(90deg) translate(calc(-#{$unit}rem - 1em), 0);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+body > article h1 a,
+#home > h1 a {
+    color: $h-color;
+    text-decoration: none;
+}
+body > article > h1 a:last-child:hover,
+body > article > h1 a:last-child:focus,
+#home > h1 a:last-child:hover,
+#home > h1 a:last-child:focus {
+    color: $h-color;
+    background: none;
+}
+body > article h1 a:first-child:after {
+    content: ': ';
+}
+
+/* @end Header }}} */
+
+
+
+
+/* @group Content {{{
+================================================================= */
+
+#home > section > article {
+    margin: 0 0 #{power($unit,3)}em;
+}
+#home > section > article footer:before {
+    content: ' ';
+    border-bottom: 1px solid $c-div;
+    width: 100%;
+    max-width: 23em;
+    display: block;
+}
+#home > section > article footer {
+    margin: 1em 0;
+}
+#home > section > article footer ul {
+    margin: .25em 0;
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    #home > section > article footer:before {
+        @if variable-exists(border) {
+            border-bottom: #{$border}px solid $c-div;
+        }
+        -webkit-transform: scale(1, .5);
+        -webkit-transform-origin: 0 0;
+        transform: scale(1, .5);
+        transform-origin: 0 0;
+    }
+}
+
+div > p:first-child {
+    margin: .5em 0 1em;
+}
+a {
+    color: $c-color;
+}
+a:hover,
+a:focus {
+    color: $c-content;
+    background: $c-color;
+}
+p {
+    margin: 1em 0;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+h1 + p,
+h2 + p,
+h3 + p,
+h2 + ul,
+h3 + ul {
+    margin: -1em 0 1em;;
+}
+h3 {
+    font-size: 1em;
+}
+p, #home article h1, h3, h2, textarea, input:not([type="submit"]) {
+    max-width: #{23*$unit}em;
+}
+#home article h1 {
+    margin: 0;
+    border-bottom: 1px solid $c-div;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        @if variable-exists(border) {
+            border-bottom: #{$border}px solid $c-div;
+        }
+    }
+}
+#home article h1 a {
+    text-decoration: none;
+}
+h2,
+legend,
+#home article h1 {
+    font-size: #{power($unit,$s-h2)}em;
+    line-height: 1.2;
+    font-weight: bold;
+}
+@if variable-exists(ss-h2) {
+@media (max-width: 30em) {
+    h2,
+    legend,
+    #home article h1 {
+        font-size: #{power($unit,$ss-h2)}em;
+    }
+}
+}
+h3,
+[itemprop="UserComment"] ul {
+    @if $s-h3 == 0 { font-size: 1em;  }
+    @if $s-h3 > 0 { font-size: #{power($unit,$s-h3)}em;  }
+}
+@if variable-exists(ss-h3) {
+@media (max-width: 30em) {
+    h3,
+    [itemprop="UserComment"] ul {
+        @if $ss-h3 == 0 { font-size: 1em;  }
+        @if $ss-h3 > 0 { font-size: #{power($unit,$ss-h3)}em;  }
+    }
+}
+}
+[itemprop="UserComment"] {
+    margin: #{power($unit,2)}em 0;
+}
+
+article aside,
+article > div > section {
+    margin: #{power($unit,4)}em 0;
+}
+body > article > div > p:first-child {
+    font-size: #{$unit}em;
+    margin: .5em 0 1em;
+    @media (max-width: 75em) {
+        line-height: 1.4;
+    }
+}
+
+input, textarea {
+    border: 1px solid $c-div;
+    padding: #{$unit/4}em;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0;
+}
+
+article > div > section ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    list-style: none;
+}
+footer cite {
+    font-style: normal;
+}
+footer cite:before {
+    content: "Written by "
+}
+article > div [itemprop="UserComment"] footer cite:before {
+    content: "";
+}
+article > div [itemprop="UserComment"] footer cite:after {
+    content: " commented ";
+}
+footer time:before {
+    content: " on "
+}
+[itemprop="UserComment"] ul {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+label {
+    display: block;
+}
+input,
+textarea {
+    display: block;
+    margin: 0 0 1em;
+    font-size: inherit;
+    font-family: inherit;
+    background: white;
+    line-height: inherit;
+    width: 100%;
+    border-radius: .2em;
+    @media (max-width: 30em) {
+        font-size: 1.3em;
+    }
+}
+[type="submit"] {
+    background: auto;
+    width: auto;
+}
+textarea {
+    height: 10em;
+}
+
+/* @end Content }}} */

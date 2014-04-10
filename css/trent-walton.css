@@ -1,0 +1,326 @@
+/*
+Inspired on the color scheme and the bravoure of http://trentwalton.com/2013/08/12/human-interest/
+Reduced in quality by my own talent
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: white;
+  height: 100%;
+}
+
+body {
+  font: 100%/1.5 helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 30em) {
+  body {
+    font-size: .8em;
+  }
+}
+
+/* @group Layout {{{
+================================================================= */
+body > article,
+body > footer,
+#home,
+body > .prevnext {
+  display: -webkit-flex;
+  display: flex;
+  line-height: 1.732;
+}
+
+body > article > *,
+body > footer > *,
+#home > *,
+body > .prevnext > * {
+  margin: 0;
+  overflow: hidden;
+  padding: 0 1.732rem;
+}
+
+body > footer > * {
+  padding-top: 8.99894em;
+  padding-bottom: 1.732em;
+}
+
+body > article > h1,
+#home > h1,
+body > footer > div:first-of-type,
+body > .prevnext > div:first-of-type {
+  font-size: 5.1957em;
+  background: #faf4e4;
+  color: white;
+  -webkit-flex: 26.99525 1 26.99525px;
+  flex: 26.99525 1 26.99525px;
+  -webkit-order: 1;
+  order: 1;
+  padding: 0;
+}
+
+body > article > div:nth-of-type(1),
+#home > section,
+body > footer > nav,
+body > .prevnext > div:nth-of-type(2) {
+  background: #c0d3d2;
+  color: black;
+  -webkit-flex: 80.98099 1 80.98099px;
+  flex: 80.98099 1 80.98099px;
+  -webkit-order: 2;
+  order: 2;
+}
+
+#home > section {
+  padding: 1.732rem;
+}
+
+body > article > div:last-of-type,
+body > footer > div:last-of-type,
+body > .prevnext > div:last-of-type,
+#home > div {
+  background: #f63d46;
+  -webkit-flex: 1.732 1 1.732px;
+  flex: 1.732 1 1.732px;
+  -webkit-order: 3;
+  order: 3;
+  padding: 0;
+}
+
+/* @end Layout }}} */
+/* @group Header {{{
+================================================================= */
+body > article > h1,
+#home > h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body > article h1 span,
+#home > h1 span {
+  display: block;
+  white-space: nowrap;
+  padding: 0.866rem;
+  -webkit-transform: rotate(90deg) translate(calc(-1.732rem - 1em), 0);
+  transform: rotate(90deg) translate(calc(-1.732rem - 1em), 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+body > article h1 a,
+#home > h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+body > article > h1 a:last-child:hover,
+body > article > h1 a:last-child:focus,
+#home > h1 a:last-child:hover,
+#home > h1 a:last-child:focus {
+  color: white;
+  background: none;
+}
+
+body > article h1 a:first-child:after {
+  content: ': ';
+}
+
+/* @end Header }}} */
+/* @group Content {{{
+================================================================= */
+#home > section > article {
+  margin: 0 0 5.1957em;
+}
+
+#home > section > article footer:before {
+  content: ' ';
+  border-bottom: 1px solid #f63d46;
+  width: 100%;
+  max-width: 23em;
+  display: block;
+}
+
+#home > section > article footer {
+  margin: 1em 0;
+}
+
+#home > section > article footer ul {
+  margin: .25em 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #home > section > article footer:before {
+    -webkit-transform: scale(1, 0.5);
+    -webkit-transform-origin: 0 0;
+    transform: scale(1, 0.5);
+    transform-origin: 0 0;
+  }
+}
+div > p:first-child {
+  margin: .5em 0 1em;
+}
+
+a {
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: #c0d3d2;
+  background: black;
+}
+
+p {
+  margin: 1em 0;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h2 + ul,
+h3 + ul {
+  margin: -1em 0 1em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p, #home article h1, h3, h2, textarea, input:not([type="submit"]) {
+  max-width: 39.836em;
+}
+
+#home article h1 {
+  margin: 0;
+  border-bottom: 1px solid #f63d46;
+}
+
+#home article h1 a {
+  text-decoration: none;
+}
+
+h2,
+legend,
+#home article h1 {
+  font-size: 2.99982em;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+h3,
+[itemprop="UserComment"] ul {
+  font-size: 1.732em;
+}
+
+[itemprop="UserComment"] {
+  margin: 2.99982em 0;
+}
+
+article aside,
+article > div > section {
+  margin: 8.99894em 0;
+}
+
+body > article > div > p:first-child {
+  font-size: 1.732em;
+  margin: .5em 0 1em;
+}
+@media (max-width: 75em) {
+  body > article > div > p:first-child {
+    line-height: 1.4;
+  }
+}
+
+input, textarea {
+  border: 1px solid #f63d46;
+  padding: 0.433em;
+}
+
+ul {
+  margin: 1em 0;
+  padding: 0;
+}
+
+article > div > section ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+}
+
+footer cite {
+  font-style: normal;
+}
+
+footer cite:before {
+  content: "Written by ";
+}
+
+article > div [itemprop="UserComment"] footer cite:before {
+  content: "";
+}
+
+article > div [itemprop="UserComment"] footer cite:after {
+  content: " commented ";
+}
+
+footer time:before {
+  content: " on ";
+}
+
+[itemprop="UserComment"] ul {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 0 0 1em;
+  font-size: inherit;
+  font-family: inherit;
+  background: white;
+  line-height: inherit;
+  width: 100%;
+  border-radius: .2em;
+}
+@media (max-width: 30em) {
+  input,
+  textarea {
+    font-size: 1.3em;
+  }
+}
+
+[type="submit"] {
+  background: auto;
+  width: auto;
+}
+
+textarea {
+  height: 10em;
+}
+
+/* @end Content }}} */

@@ -1,0 +1,32 @@
+/*
+Inspired on the color scheme and the bravoure of eend.nl
+Reduced in quality by my own talent
+*/
+
+// colors
+$c-heading: #FFB600;
+$c-div: #1A171B;
+$c-content: #fff;
+$h-color: white;
+$c-color: black;
+
+// measures
+$unit : 1.5;
+
+// ratio for heading, div and content
+$p-h: 12;
+$p-c: 15;
+$p-d: 5;
+
+// Order of heading, div and content
+$o-h: 2;
+$o-c: 3;
+$o-d: 1;
+
+// size of headings is calculated like power($unit, $s-h1);
+$s-h1 : 2;
+$s-h2 : 1;
+$s-h3 : 0;
+
+
+@import "style.scss";
