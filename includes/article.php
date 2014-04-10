@@ -6,23 +6,15 @@ else {
 	$lang = '';
 }
 if(is_home()) {
+$homeLink = '<a href="/">Nerd</a>';
 ?>
 
 <article<?php echo $lang; ?> itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
 <header>
 <?php }
  ?>
-		<h1><span><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url"><?php
-		$dlnrd_title = get_post_meta($post->ID, 'dlnrd_title', 'true');
-		if ($dlnrd_title !='') {
-			echo $dlnrd_title;
-		}
-		else {
-			$pagetitle = get_the_title($post->ID);
-			$pagetitle = str_replace('links for ', "", $pagetitle);
-			echo($pagetitle);
-		}
-		?></a></span></h1>
+		<h1><span><?php echo $homeLink; ?><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url">
+            <?php the_title(); ?></a></span></h1>
 	<?php if(is_home()) {
     echo "</header>";
 	the_content();
