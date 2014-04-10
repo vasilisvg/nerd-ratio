@@ -5,9 +5,10 @@ if ( in_category( 'nl' )) {
 else {
 	$lang = '';
 }
+if(is_home()) {
 ?>
+
 <article<?php echo $lang; ?> itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
-	<header>
 		<h1><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url"><?php
 		$dlnrd_title = get_post_meta($post->ID, 'dlnrd_title', 'true');
 		if ($dlnrd_title !='') {
@@ -19,7 +20,6 @@ else {
 			echo($pagetitle);
 		}
 		?></a></h1>
-	</header>
 	<?php if(is_home()) {
 	the_content();
 	}
