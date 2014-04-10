@@ -1,6 +1,6 @@
 <?php
 $files = array();
-$patterns_dir = "/home/vasilis/webapps/nerd_vasilis/wp-content/themes/nerd-ratio/css";
+$patterns_dir = "./wp-content/themes/nerd-ratio/css";
 
 //If not, show all images
 
