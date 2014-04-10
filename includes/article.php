@@ -45,7 +45,7 @@ if(is_home()) {
     ?>
     </aside>
 </div>
- <?php } ?>
+ <?php } 
 
 if(is_home()) {
 ?>
