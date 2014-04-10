@@ -13,7 +13,7 @@ get_header();
 
 <?php //comments_template(); ?>
 </div>
-
+<div></div>
 </article>
 	<?php endwhile; else: ?>
 
