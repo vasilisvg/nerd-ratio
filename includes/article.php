@@ -5,8 +5,9 @@ if ( in_category( 'nl' )) {
 else {
 	$lang = '';
 }
-if(is_home()) {
 $homeLink = '<a href="/">Nerd</a>';
+if(is_home()) {
+$homeLink = '';
 ?>
 
 <article<?php echo $lang; ?> itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
