@@ -202,7 +202,11 @@ h3 {
   font-size: 1em;
 }
 
-p, #home article h1, h3, h2, textarea, input:not([type="submit"]) {
+img {
+  height: auto;
+}
+
+p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
   max-width: 46em;
 }
 
