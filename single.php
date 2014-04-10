@@ -11,7 +11,7 @@ get_header();
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <?php include_once('includes/article.php'); ?>
 
-<?php comments_template(); ?>
+<?php //comments_template(); ?>
 </div>
 
 </article>
