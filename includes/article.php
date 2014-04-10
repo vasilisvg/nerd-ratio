@@ -9,6 +9,7 @@ if(is_home()) {
 ?>
 
 <article<?php echo $lang; ?> itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
+<header>
 <?php }
  ?>
 		<h1><span><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url"><?php
@@ -23,6 +24,7 @@ if(is_home()) {
 		}
 		?></a></span></h1>
 	<?php if(is_home()) {
+    echo "</header>";
 	the_content();
 	}
 	else {
@@ -45,7 +47,7 @@ if(is_home()) {
     ?>
     </aside>
 </div>
- <?php } 
+ <?php }
 
 if(is_home()) {
 ?>
