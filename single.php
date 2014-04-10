@@ -12,8 +12,9 @@ get_header();
 <?php include_once('includes/article.php'); ?>
 
 <?php comments_template(); ?>
+</div>
 
-</section>
+</article>
 	<?php endwhile; else: ?>
 
 		<p>Sorry, no posts matched your criteria.</p>

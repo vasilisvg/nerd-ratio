@@ -46,7 +46,7 @@ if(is_home()) {
     next_post_link('<h3>Next article</h3><p>%link</p>');
     ?>
     </aside>
-</div>
+
  <?php }
 
 if(is_home()) {
