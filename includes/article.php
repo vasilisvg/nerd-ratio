@@ -9,7 +9,9 @@ if(is_home()) {
 ?>
 
 <article<?php echo $lang; ?> itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
-		<h1><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url"><?php
+<?php }
+ ?>
+		<h1><span><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url"><?php
 		$dlnrd_title = get_post_meta($post->ID, 'dlnrd_title', 'true');
 		if ($dlnrd_title !='') {
 			echo $dlnrd_title;
@@ -19,7 +21,7 @@ if(is_home()) {
 			$pagetitle = str_replace('links for ', "", $pagetitle);
 			echo($pagetitle);
 		}
-		?></a></h1>
+		?></a></span></h1>
 	<?php if(is_home()) {
 	the_content();
 	}
@@ -28,8 +30,6 @@ if(is_home()) {
 
 	<div class="e-content">
 	<?php the_content();  ?>
-	</div>
-	<?php } ?>
 	<footer>
 		<ul>
 			<li><cite><a href="https://twitter.com/vasilis" rel="contact author" class="p-author">Vasilis van Gemert</a></cite></li>
@@ -37,20 +37,17 @@ if(is_home()) {
 <?php edit_post_link('Edit','<li>','</li>'); ?>
 		</ul>
 	</footer>
-	<?php
-// check if the function already exists
-if(is_home()) {
-
-}
-else {
-echo '<aside role="complementary">';
-related_posts();
-previous_post_link('<h3>Previous article</h3><p>%link</p>');
-next_post_link('<h3>Next article</h3><p>%link</p>');
-?>
-</aside>
 <?php
-}
-?>
+    echo '<aside role="complementary">';
+    related_posts();
+    previous_post_link('<h3>Previous article</h3><p>%link</p>');
+    next_post_link('<h3>Next article</h3><p>%link</p>');
+    ?>
+    </aside>
+</div>
+ <?php } ?>
 
+if(is_home()) {
+?>
 </article>
+<?php } ?>
