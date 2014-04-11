@@ -137,7 +137,8 @@ body > article h1 a:first-child:after {
   margin: 0 0 3.09936em;
 }
 
-#home > section > article footer:before {
+#home > section > article footer:before,
+.e-content > footer:before {
   content: ' ';
   border-bottom: 1px solid #0555c8;
   width: 100%;
