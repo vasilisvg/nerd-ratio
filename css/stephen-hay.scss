@@ -4,14 +4,14 @@ Reduced in quality by my own talent
 */
 
 // colors
-$c-heading: #333;
-$c-div: #000080;
-$c-content: #E3E2DB;
+$c-heading: #5B6E21;
+$c-div: #0B4873;
+$c-content: #EBEBEB;
 $h-color: white;
 $c-color: black;
 
 // measures
-$unit : 1.5;
+$unit : 1.414;
 
 // ratio for heading, div and content
 $p-h: 3;
@@ -24,9 +24,9 @@ $o-c: 2;
 $o-d: 3;
 
 // size of headings is calculated like power($unit, $s-h1);
-$s-h1 : 2;
-$s-h2 : 1;
-$s-h3 : 0;
+$s-h1 : 3;
+$s-h2 : 2;
+$s-h3 : 1;
 
 
 @import "style.scss";

@@ -67,8 +67,8 @@ body > article > div:nth-of-type(1),
 #home > section,
 body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
-  background: #25716e;
-  color: white;
+  background: white;
+  color: #464747;
   -webkit-flex: 7.59375 1 7.59375px;
   flex: 7.59375 1 7.59375px;
   -webkit-order: 3;
@@ -83,7 +83,7 @@ body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: #464747;
+  background: #25716e;
   -webkit-flex: 1.5 1 1.5px;
   flex: 1.5 1 1.5px;
   -webkit-order: 1;
@@ -140,7 +140,7 @@ body > article h1 a:first-child:after {
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid #464747;
+  border-bottom: 1px solid #25716e;
   width: 100%;
   max-width: 23em;
   display: block;
@@ -167,13 +167,13 @@ div > p:first-child {
 }
 
 a {
-  color: white;
+  color: #464747;
 }
 
 a:hover,
 a:focus {
-  color: #25716e;
-  background: white;
+  color: white;
+  background: #464747;
 }
 
 p {
@@ -206,7 +206,7 @@ p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid #464747;
+  border-bottom: 1px solid #25716e;
 }
 
 #home article h1 a {
@@ -246,7 +246,7 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid #464747;
+  border: 1px solid #25716e;
   padding: 0.375em;
 }
 

@@ -8,7 +8,10 @@ $handle = opendir($patterns_dir);
 $i=0;
 while (false !== ($file = readdir($handle))):
     if(stristr($file,'.css')):
-        if ($file == 'functions.css' || $file == 'style.css') {
+        if (
+            $file == 'functions.css'
+            || $file == 'style.css'
+            || $file == 'oliver-reichenstein.css') {
             //
         }
         else {

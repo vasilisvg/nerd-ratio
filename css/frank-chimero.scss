@@ -4,19 +4,19 @@ Reduced in quality by my own talent
 */
 
 // colors
-$c-heading: #000;
-$c-div: #8C96A0;
+$c-heading: hsl(183,90%,48%);
+$c-div: hsl(169,100%,44%);
 $c-content: #fff;
 $h-color: white;
 $c-color: black;
 
 // measures
-$unit : 1.414;
+$unit : 1.5;
 
 // ratio for heading, div and content
-$p-h: 1;
+$p-h: 4;
 $p-c: 8;
-$p-d: 4;
+$p-d: 1;
 
 // Alternative, small screen ratio
 $pa-h: 4;
@@ -31,9 +31,9 @@ $o-c: 3;
 $o-d: 2;
 
 // size of headings is calculated like power($unit, $s-h1);
-$s-h1 : 2;
-$s-h2 : 1;
-$s-h3 : 0;
+$s-h1 : 3;
+$s-h2 : 2;
+$s-h3 : 1;
 
 
 @import "style.scss";

@@ -32,7 +32,7 @@ body > footer,
 body > .prevnext {
   display: -webkit-flex;
   display: flex;
-  line-height: 1.414;
+  line-height: 1.5;
 }
 
 body > article > *,
@@ -41,23 +41,23 @@ body > footer > *,
 body > .prevnext > * {
   margin: 0;
   overflow: hidden;
-  padding: 0 1.414rem;
+  padding: 0 1.5rem;
 }
 
 body > footer > * {
-  padding-top: 3.99758em;
-  padding-bottom: 1.414em;
+  padding-top: 5.0625em;
+  padding-bottom: 1.5em;
 }
 
 body > article > h1,
 #home > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
-  font-size: 1.9994em;
-  background: black;
+  font-size: 3.375em;
+  background: #0cdee9;
   color: white;
-  -webkit-flex: 1.414 1 1.414px;
-  flex: 1.414 1 1.414px;
+  -webkit-flex: 5.0625 1 5.0625px;
+  flex: 5.0625 1 5.0625px;
   -webkit-order: 1;
   order: 1;
   padding: 0;
@@ -67,8 +67,8 @@ body > .prevnext > div:first-of-type {
   #home > h1,
   body > footer > div:first-of-type,
   body > .prevnext > div:first-of-type {
-    -webkit-flex: 3.99758 1 3.99758px;
-    flex: 3.99758 1 3.99758px;
+    -webkit-flex: 5.0625 1 5.0625px;
+    flex: 5.0625 1 5.0625px;
   }
 }
 
@@ -78,8 +78,8 @@ body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
   background: white;
   color: black;
-  -webkit-flex: 15.98068 1 15.98068px;
-  flex: 15.98068 1 15.98068px;
+  -webkit-flex: 25.62891 1 25.62891px;
+  flex: 25.62891 1 25.62891px;
   -webkit-order: 3;
   order: 3;
 }
@@ -88,22 +88,22 @@ body > .prevnext > div:nth-of-type(2) {
   #home > section,
   body > footer > nav,
   body > .prevnext > div:nth-of-type(2) {
-    -webkit-flex: 15.98068 1 15.98068px;
-    flex: 15.98068 1 15.98068px;
+    -webkit-flex: 25.62891 1 25.62891px;
+    flex: 25.62891 1 25.62891px;
   }
 }
 
 #home > section {
-  padding: 1.414rem;
+  padding: 1.5rem;
 }
 
 body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: #8c96a0;
-  -webkit-flex: 3.99758 1 3.99758px;
-  flex: 3.99758 1 3.99758px;
+  background: #00e0b7;
+  -webkit-flex: 1.5 1 1.5px;
+  flex: 1.5 1 1.5px;
   -webkit-order: 2;
   order: 2;
   padding: 0;
@@ -113,8 +113,8 @@ body > .prevnext > div:last-of-type,
   body > footer > div:last-of-type,
   body > .prevnext > div:last-of-type,
   #home > div {
-    -webkit-flex: 1.414 1 1.414px;
-    flex: 1.414 1 1.414px;
+    -webkit-flex: 1.5 1 1.5px;
+    flex: 1.5 1 1.5px;
   }
 }
 
@@ -132,9 +132,9 @@ body > article h1 span,
 #home > h1 span {
   display: block;
   white-space: nowrap;
-  padding: 0.707rem;
-  -webkit-transform: rotate(90deg) translate(calc(-1.414rem - 1em), 0);
-  transform: rotate(90deg) translate(calc(-1.414rem - 1em), 0);
+  padding: 0.75rem;
+  -webkit-transform: rotate(90deg) translate(calc(-1.5rem - 1em), 0);
+  transform: rotate(90deg) translate(calc(-1.5rem - 1em), 0);
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
@@ -161,13 +161,13 @@ body > article h1 a:first-child:after {
 /* @group Content {{{
 ================================================================= */
 #home > section > article {
-  margin: 0 0 2.82715em;
+  margin: 0 0 3.375em;
 }
 
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid #8c96a0;
+  border-bottom: 1px solid #00e0b7;
   width: 100%;
   max-width: 23em;
   display: block;
@@ -228,12 +228,12 @@ img {
 }
 
 p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
-  max-width: 32.522em;
+  max-width: 34.5em;
 }
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid #8c96a0;
+  border-bottom: 1px solid #00e0b7;
 }
 
 #home article h1 a {
@@ -243,27 +243,27 @@ p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
 h2,
 legend,
 #home article h1 {
-  font-size: 1.414em;
+  font-size: 2.25em;
   line-height: 1.2;
   font-weight: bold;
 }
 
 h3,
 [itemprop="UserComment"] ul {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 [itemprop="UserComment"] {
-  margin: 1.9994em 0;
+  margin: 2.25em 0;
 }
 
 article aside,
 article > div > section {
-  margin: 3.99758em 0;
+  margin: 5.0625em 0;
 }
 
 body > article > div > p:first-child {
-  font-size: 1.414em;
+  font-size: 1.5em;
   margin: .5em 0 1em;
 }
 @media (max-width: 75em) {
@@ -273,8 +273,8 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid #8c96a0;
-  padding: 0.3535em;
+  border: 1px solid #00e0b7;
+  padding: 0.375em;
 }
 
 ul {
