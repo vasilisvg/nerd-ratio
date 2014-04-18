@@ -221,7 +221,7 @@ p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="subm
     max-width: #{23*$unit}em;
 }
 blockquote {
-    font-size: #{power($unit,2)}em;
+    font-size: #{power($unit,1)}em;
 }
 #home article h1 {
     margin: 0;
