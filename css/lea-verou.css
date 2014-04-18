@@ -285,7 +285,7 @@ article > div [itemprop="UserComment"] footer cite:before {
 }
 
 article > div [itemprop="UserComment"] footer cite:after {
-  content: " commented ";
+  content: " wrote ";
 }
 
 footer time:before {
