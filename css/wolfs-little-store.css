@@ -211,11 +211,11 @@ blockquote {
   padding: 0;
 }
 
-blockquote :first-child::before {
+blockquote > :first-child::before {
   content: '“';
 }
 
-blockquote :last-child::after {
+blockquote > :last-child::after {
   content: '”';
 }
 
