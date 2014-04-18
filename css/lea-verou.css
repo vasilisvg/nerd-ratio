@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Inspired on the color scheme and the bravoure of lea.verou.me
 Reduced in quality by my own talent
@@ -209,6 +210,14 @@ blockquote {
   font-size: 1.618em;
   margin: 0;
   padding: 0;
+}
+
+blockquote :first-child::before {
+  content: '“';
+}
+
+blockquote :last-child::after {
+  content: '”';
 }
 
 #home article h1 {

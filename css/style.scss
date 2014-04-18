@@ -225,6 +225,12 @@ blockquote {
     margin: 0;
     padding: 0;
 }
+blockquote :first-child::before {
+    content: '“';
+}
+blockquote :last-child::after {
+    content: '”';
+}
 #home article h1 {
     margin: 0;
     border-bottom: 1px solid $c-div;

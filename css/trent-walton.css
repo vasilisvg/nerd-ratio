@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Inspired on the color scheme and the bravoure of http://trentwalton.com/2013/08/12/human-interest/
 Reduced in quality by my own talent
@@ -208,6 +209,14 @@ blockquote {
   font-size: 1.732em;
   margin: 0;
   padding: 0;
+}
+
+blockquote :first-child::before {
+  content: '“';
+}
+
+blockquote :last-child::after {
+  content: '”';
 }
 
 #home article h1 {
