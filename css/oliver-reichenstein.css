@@ -32,7 +32,7 @@ body > footer,
 body > .prevnext {
   display: -webkit-flex;
   display: flex;
-  line-height: 1.118;
+  line-height: 1.5;
 }
 
 body > article > *,
@@ -41,23 +41,23 @@ body > footer > *,
 body > .prevnext > * {
   margin: 0;
   overflow: hidden;
-  padding: 0 1.118rem;
+  padding: 0 1.5rem;
 }
 
 body > footer > * {
-  padding-top: 1.56231em;
-  padding-bottom: 1.118em;
+  padding-top: 5.0625em;
+  padding-bottom: 1.5em;
 }
 
 body > article > h1,
 #home > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
-  font-size: 1.24992em;
+  font-size: 3.375em;
   background: white;
   color: black;
-  -webkit-flex: 9.30756 1 9.30756px;
-  flex: 9.30756 1 9.30756px;
+  -webkit-flex: 2.25 1 2.25px;
+  flex: 2.25 1 2.25px;
   -webkit-order: 2;
   order: 2;
   padding: 0;
@@ -69,14 +69,14 @@ body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
   background: white;
   color: black;
-  -webkit-flex: 86.63076 1 86.63076px;
-  flex: 86.63076 1 86.63076px;
+  -webkit-flex: 5.0625 1 5.0625px;
+  flex: 5.0625 1 5.0625px;
   -webkit-order: 3;
   order: 3;
 }
 
 #home > section {
-  padding: 1.118rem;
+  padding: 0.75rem 1.5rem 1.5rem;
 }
 
 body > article > div:last-of-type,
@@ -84,8 +84,8 @@ body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
   background: black;
-  -webkit-flex: 1.118 1 1.118px;
-  flex: 1.118 1 1.118px;
+  -webkit-flex: 1.5 1 1.5px;
+  flex: 1.5 1 1.5px;
   -webkit-order: 1;
   order: 1;
   padding: 0;
@@ -105,9 +105,9 @@ body > article h1 span,
 #home > h1 span {
   display: block;
   white-space: nowrap;
-  padding: 0.559rem;
-  -webkit-transform: rotate(90deg) translate(calc(-1.118rem - 1em), 0);
-  transform: rotate(90deg) translate(calc(-1.118rem - 1em), 0);
+  padding: 0.75rem;
+  -webkit-transform: rotate(90deg) translate(calc(-1.5rem - 1em), 0);
+  transform: rotate(90deg) translate(calc(-1.5rem - 1em), 0);
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
@@ -134,7 +134,7 @@ body > article h1 a:first-child:after {
 /* @group Content {{{
 ================================================================= */
 #home > section > article {
-  margin: 0 0 1.39742em;
+  margin: 0 0 3.375em;
 }
 
 #home > section > article footer:before,
@@ -201,7 +201,7 @@ img {
 }
 
 p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
-  max-width: 25.714em;
+  max-width: 34.5em;
 }
 
 #home article h1 {
@@ -216,27 +216,27 @@ p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
 h2,
 legend,
 #home article h1 {
-  font-size: 1.118em;
+  font-size: 2.25em;
   line-height: 1.2;
   font-weight: bold;
 }
 
 h3,
 [itemprop="UserComment"] ul {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 [itemprop="UserComment"] {
-  margin: 1.24992em 0;
+  margin: 2.25em 0;
 }
 
 article aside,
 article > div > section {
-  margin: 1.56231em 0;
+  margin: 5.0625em 0;
 }
 
 body > article > div > p:first-child {
-  font-size: 1.118em;
+  font-size: 1.5em;
   margin: .5em 0 1em;
 }
 @media (max-width: 75em) {
@@ -247,7 +247,7 @@ body > article > div > p:first-child {
 
 input, textarea {
   border: 1px solid black;
-  padding: 0.2795em;
+  padding: 0.375em;
 }
 
 ul {

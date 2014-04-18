@@ -76,7 +76,7 @@ body > .prevnext > div:nth-of-type(2) {
 }
 
 #home > section {
-  padding: 1.414rem;
+  padding: 0.707rem 1.414rem 1.414rem;
 }
 
 body > article > div:last-of-type,

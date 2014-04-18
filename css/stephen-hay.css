@@ -67,7 +67,7 @@ body > article > div:nth-of-type(1),
 #home > section,
 body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
-  background: #ebebeb;
+  background: white;
   color: black;
   -webkit-flex: 7.99275 1 7.99275px;
   flex: 7.99275 1 7.99275px;
@@ -76,7 +76,7 @@ body > .prevnext > div:nth-of-type(2) {
 }
 
 #home > section {
-  padding: 1.414rem;
+  padding: 0.707rem 1.414rem 1.414rem;
 }
 
 body > article > div:last-of-type,
@@ -172,7 +172,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #ebebeb;
+  color: white;
   background: black;
 }
 

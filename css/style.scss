@@ -88,7 +88,7 @@ body > .prevnext {
      order: $o-c;
  }
  #home > section {
-     padding: #{$unit}rem;
+     padding: #{$unit/2}rem #{$unit}rem #{$unit}rem;
  }
  body > article > div:last-of-type,
  body > footer > div:last-of-type,

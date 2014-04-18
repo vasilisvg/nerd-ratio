@@ -54,7 +54,7 @@ body > article > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
   font-size: 5.1957em;
-  background: #faf4e4;
+  background: #c0d3d2;
   color: white;
   -webkit-flex: 26.99525 1 26.99525px;
   flex: 26.99525 1 26.99525px;
@@ -67,7 +67,7 @@ body > article > div:nth-of-type(1),
 #home > section,
 body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
-  background: #c0d3d2;
+  background: white;
   color: black;
   -webkit-flex: 80.98099 1 80.98099px;
   flex: 80.98099 1 80.98099px;
@@ -76,7 +76,7 @@ body > .prevnext > div:nth-of-type(2) {
 }
 
 #home > section {
-  padding: 1.732rem;
+  padding: 0.866rem 1.732rem 1.732rem;
 }
 
 body > article > div:last-of-type,
@@ -172,7 +172,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #c0d3d2;
+  color: white;
   background: black;
 }
 
