@@ -247,7 +247,7 @@ blockquote > :first-child::before {
 blockquote > :last-child::after {
   content: '”';
   position: absolute;
-  margin-left: .4em;
+  margin-left: .25em;
 }
 
 #home article h1 {
