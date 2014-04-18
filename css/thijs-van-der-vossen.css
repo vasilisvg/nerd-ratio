@@ -222,10 +222,14 @@ blockquote {
 
 blockquote > :first-child::before {
   content: '“';
+  position: absolute;
+  margin-left: -.4em;
 }
 
 blockquote > :last-child::after {
   content: '”';
+  position: absolute;
+  margin-right: -.25em;
 }
 
 #home article h1 {
