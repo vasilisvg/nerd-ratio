@@ -204,6 +204,10 @@ p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="subm
   max-width: 34.5em;
 }
 
+blockquote {
+  font-size: 2.25em;
+}
+
 #home article h1 {
   margin: 0;
   border-bottom: 1px solid #1a171b;

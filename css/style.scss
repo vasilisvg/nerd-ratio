@@ -220,6 +220,9 @@ img {
 p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]),img {
     max-width: #{23*$unit}em;
 }
+blockquote {
+    font-size: #{power($unit,2)}em;
+}
 #home article h1 {
     margin: 0;
     border-bottom: 1px solid $c-div;
