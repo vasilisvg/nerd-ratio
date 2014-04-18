@@ -227,7 +227,7 @@ img {
   display: block;
 }
 
-p, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
+p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
   max-width: 34.5em;
 }
 
