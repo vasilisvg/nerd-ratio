@@ -58,8 +58,8 @@ body > .prevnext > div:first-of-type {
   color: white;
   -webkit-flex: 2.82715 1 2.82715px;
   flex: 2.82715 1 2.82715px;
-  -webkit-order: 1;
-  order: 1;
+  -webkit-order: 3;
+  order: 3;
   padding: 0;
 }
 
@@ -86,8 +86,8 @@ body > .prevnext > div:last-of-type,
   background: #0b4873;
   -webkit-flex: 1.414 1 1.414px;
   flex: 1.414 1 1.414px;
-  -webkit-order: 3;
-  order: 3;
+  -webkit-order: 1;
+  order: 1;
   padding: 0;
 }
 
