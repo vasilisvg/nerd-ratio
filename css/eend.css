@@ -220,7 +220,7 @@ blockquote > :first-child::before {
 blockquote > :last-child::after {
   content: '”';
   position: absolute;
-  margin-right: -.4em;
+  margin-left: .4em;
 }
 
 #home article h1 {
