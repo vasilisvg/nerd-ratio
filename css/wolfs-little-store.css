@@ -41,6 +41,10 @@ strong {
   font-weight: bold;
 }
 
+code {
+  font-family: "Fedra Mono Screen Regular";
+}
+
 /* @group Layout {{{
 ================================================================= */
 body > article,
