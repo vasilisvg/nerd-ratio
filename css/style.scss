@@ -19,23 +19,23 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Charlie Bold";
+    font-family: "Charlie Bold", georgia;
     font-weight: bold;
 }
 b {
-    font-family: "Fedra Sans Screen Bold";
+    font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
     font-weight: bold;
 }
 em, i {
-    font-family: "Fedra Sans Screen Italic";
+    font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
     font-style: italic;
 }
 strong {
-    font-family: "Fedra Sans Screen Bold Italic";
+    font-family: "Fedra Sans Screen Bold Italic", helvetica, arial, sans-serif;
     font-style: italic;
     font-weight: bold;
 }
-code {
+code, pre {
     font-family: "Fedra Mono Screen Regular";
 }
 
