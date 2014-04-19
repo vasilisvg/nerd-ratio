@@ -340,8 +340,8 @@ footer li {
     display: inline-block;
     list-style: none;
 }
-footer cite {
-    
+footer .details cite {
+    font-style: normal;
 }
 footer cite:before {
     content: "Written by "

@@ -317,6 +317,10 @@ footer li {
   list-style: none;
 }
 
+footer .details cite {
+  font-style: normal;
+}
+
 footer cite:before {
   content: "Written by ";
 }
