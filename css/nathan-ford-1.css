@@ -224,6 +224,11 @@ blockquote > :last-child::after {
   margin-left: .25em;
 }
 
+ins {
+  text-decoration: none;
+  background: yellow;
+}
+
 #home article h1 {
   margin: 0;
   border-bottom: 1px solid #f2f1f2;
