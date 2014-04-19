@@ -224,6 +224,11 @@ h3 {
   font-size: 1em;
 }
 
+h1, h2, h3, h4, strong, b {
+  font-family: "Irma Screen Bold";
+  font-weight: bold;
+}
+
 img {
   height: auto;
   display: block;
