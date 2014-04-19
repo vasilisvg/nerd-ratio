@@ -35,7 +35,7 @@ b {
   font-weight: bold;
 }
 
-em, i, #home > section > article footer, footer cite {
+em, i {
   font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
   font-style: italic;
 }
