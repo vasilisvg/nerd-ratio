@@ -5,16 +5,14 @@ if ( in_category( 'nl' )) {
 else {
 	$lang = '';
 }
-$homeLink = '<a href="/">Nerd</a>';
 if(is_home()) {
-$homeLink = '';
 ?>
 
 <article<?php echo $lang; ?> itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
 <header>
 <?php }
  ?>
-		<h1><span><?php echo $homeLink; ?><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url">
+		<h1><span><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url">
             <?php the_title(); ?></a></span></h1>
 	<?php if(is_home()) {
     echo "</header>";
@@ -32,7 +30,7 @@ $homeLink = '';
 	else {
 	 ?>
 
-	<div class="e-content">
+
 	<?php the_content();  ?>
 	<footer>
 		<ul>

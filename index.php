@@ -36,6 +36,6 @@ endwhile; ?>
 	<p>Sorry, but you are looking for something that isn't here. Only sensible things here. Such as this search field.</p>
 	<?php get_search_form(); ?>
 <?php endif; ?>
-</section>
+
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>

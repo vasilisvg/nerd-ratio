@@ -10,8 +10,7 @@ while (false !== ($file = readdir($handle))):
     if(stristr($file,'.css')):
         if (
             $file == 'functions.css'
-            || $file == 'style.css'
-            || $file == 'oliver-reichenstein.css') {
+            || $file == 'style.css') {
             //
         }
         else {
@@ -30,6 +29,7 @@ $amount = (count($files))-1;
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title><?php wp_title(''); ?> ⚒ Nerd</title>
+<link rel="stylesheet" href="http://fonts.typotheque.com/WF-023273-006956.css" type="text/css" />
 <link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/<?php echo $files[rand(0,$amount)]; ?>">
 <link rel="alternate" type="application/rss+xml" title="Nerd feed" href="/feed/">
 <meta name="viewport" content="width=device-width,initial-scale=1">
