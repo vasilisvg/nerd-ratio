@@ -26,7 +26,7 @@ b {
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
     font-weight: bold;
 }
-em, i {
+em, i, footer ul:not(.details) li {
     font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
     font-style: italic;
 }
