@@ -48,6 +48,7 @@ strong {
 
 code, pre {
   font-family: "Fedra Mono Screen Regular";
+  font-weight: normal !important;
 }
 
 /* @group Layout {{{
