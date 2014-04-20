@@ -329,7 +329,10 @@ body > article > div > p:first-child {
             font-style: italic;
             font-weight: bold;
         }
-        
+        b {
+            font-family: "Fedra Sans Screen", helvetica, arial, sans-serif;
+            font-weight: normal;
+        }
     }
 }
 
