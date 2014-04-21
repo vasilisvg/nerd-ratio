@@ -13,7 +13,7 @@
 <?php
 $key="has-code-block";
 $hasBlock = get_post_meta($post->ID, $key, true);
-if(is_home() && $hasBlock != '') {
+if(!is_home() && $hasBlock != '') {
 ?>
 <script src="/wp-content/themes/nerd-ratio/js/prism.js"></script>
 <?php } ?>
