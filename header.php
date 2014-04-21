@@ -36,10 +36,10 @@ $css = $files[rand(0,$amount)];
 $cssFile = './wp-content/themes/nerd-ratio/css/'.$css;
 $cssTime = date ("U", filemtime($cssFile));
 $cssName = explode('.css',$css);
-$css = $cssName[0].$cssTime.'.css';
+$css = $cssName[0].'-'.$cssTime.'.css';
 
 ?>
-<link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/<?php echo $css.'?'.$cssTime; ?>">
+<link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/<?php echo $css; ?>">
 <link rel="alternate" type="application/rss+xml" title="Nerd feed" href="/feed/">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="application-name" content="Nerd.">
