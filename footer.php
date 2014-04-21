@@ -10,10 +10,10 @@
     </nav>
     <div></div>
 </footer>
-<!--
 <?php
 $key="has-code-block";
-echo count(get_post_meta($post->ID, $key, true));
+$hasBlock = get_post_meta($post->ID, $key, true);
+if(is_home() && $hasBlock != '') {
 ?>
--->
 <script src="/wp-content/themes/nerd-ratio/js/prism.js"></script>
+<?php } ?>
