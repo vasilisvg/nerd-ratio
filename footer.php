@@ -13,7 +13,7 @@
 <!--
 <?php
 $key="has-code-block";
-echo get_post_meta($post->ID, $key, true);
+echo count(get_post_meta($post->ID, $key, true));
 ?>
 -->
 <script src="/wp-content/themes/nerd-ratio/js/prism.js"></script>
