@@ -30,7 +30,14 @@ $amount = (count($files))-1;
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title><?php wp_title(''); ?> ⚒ Nerd</title>
 <link rel="stylesheet" href="http://fonts.typotheque.com/WF-023273-006956.css" type="text/css" />
-<link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/<?php echo $files[rand(0,$amount)]; ?>">
+<?php
+// get the date of the stylesheet
+$css = $files[rand(0,$amount)];
+$cssFile = './wp-content/themes/nerd-ratio/css/'.$css;
+$cssTime = date ("U", filemtime($cssFile));
+
+?>
+<link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/<?php echo $css.'?'.$cssTime; ?>">
 <link rel="alternate" type="application/rss+xml" title="Nerd feed" href="/feed/">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="application-name" content="Nerd.">
