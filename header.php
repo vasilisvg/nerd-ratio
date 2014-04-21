@@ -36,7 +36,7 @@ $css = $files[rand(0,$amount)];
 $cssFile = './wp-content/themes/nerd-ratio/css/'.$css;
 $cssTime = date ("U", filemtime($cssFile));
 $cssName = explode('.css',$css);
-$css = $cssName[0].'.'.$cssTime.'.css';
+//$css = $cssName[0].'.'.$cssTime.'.css';
 
 ?>
 <link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/<?php echo $css; ?>">
