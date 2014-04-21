@@ -10,3 +10,4 @@
     </nav>
     <div></div>
 </footer>
+<script src="/wp-content/themes/nerd-ratio/js/prism.js"></script>
