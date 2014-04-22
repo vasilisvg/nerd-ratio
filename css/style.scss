@@ -408,6 +408,14 @@ textarea {
     height: 10em;
 }
 
+.yarpp-related ol {
+    margin: 1em 0;
+    padding: 0;
+}
+.yarpp-related ol li {
+    margin: 0;
+    padding: 0;
+}
 /* @end Content }}} */
 
 @import "prism.scss";
