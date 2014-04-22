@@ -251,6 +251,12 @@ blockquote {
     font-size: #{power($unit,1)}em;
     margin: 0;
     padding: 0;
+    p {
+        @media (max-width: 75em) {
+            line-height: 1.4;
+            text-align: left;
+        }
+    }
 }
 blockquote > :first-child::before {
     content: '“';
