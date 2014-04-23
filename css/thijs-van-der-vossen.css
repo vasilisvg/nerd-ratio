@@ -120,8 +120,8 @@ body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
   background: #ffd900;
-  -webkit-flex: 2.99982 1 2.99982px;
-  flex: 2.99982 1 2.99982px;
+  -webkit-flex: 1.732 1 1.732px;
+  flex: 1.732 1 1.732px;
   -webkit-order: 2;
   order: 2;
   padding: 0;
