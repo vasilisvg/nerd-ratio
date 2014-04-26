@@ -5,7 +5,7 @@ if ( in_category( 'nl' )) {
 else {
 	$lang = '';
 }
-
+?>
 <article<?php echo $lang; ?> itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
 <header>
 		<h1><span><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url">
