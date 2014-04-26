@@ -10,7 +10,7 @@ else {
 <header>
 		<h1><span><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url">
             <?php the_title(); ?></a></span></h1>
-	<?php if(is_home()) {
+	<?php
     echo "</header>";
 	the_content();?>
     <footer>
