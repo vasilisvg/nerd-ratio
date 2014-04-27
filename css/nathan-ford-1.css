@@ -80,6 +80,30 @@ body > .prevnext > * {
     padding: 1.414rem 1.9994em;
   }
 }
+@media (min-width: 40em) {
+  body > article > *,
+  body > footer > *,
+  #home > *,
+  body > .prevnext > * {
+    padding: 1.9994em 2.82715em;
+  }
+}
+@media (min-width: 50em) {
+  body > article > *,
+  body > footer > *,
+  #home > *,
+  body > .prevnext > * {
+    padding: 2.82715em 3.99758em;
+  }
+}
+@media (min-width: 60em) {
+  body > article > *,
+  body > footer > *,
+  #home > *,
+  body > .prevnext > * {
+    padding: 3.99758em 5.65258em;
+  }
+}
 
 body > footer > * {
   padding-top: 3.99758em;
