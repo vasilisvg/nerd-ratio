@@ -155,6 +155,9 @@ body > article > h1,
   margin: 0;
   padding: 0;
   line-height: 1;
+  /* @media (min-width: 75em) {
+      padding: 4.2358rem 1.618rem;
+  } */
 }
 @media (min-width: 30em) {
   body > article > h1,
@@ -172,12 +175,6 @@ body > article > h1,
   body > article > h1,
   #home > h1 {
     padding: 2.61792rem 1.618rem;
-  }
-}
-@media (min-width: 75em) {
-  body > article > h1,
-  #home > h1 {
-    padding: 4.2358rem 1.618rem;
   }
 }
 
