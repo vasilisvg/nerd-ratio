@@ -21,7 +21,7 @@ body {
   text-rendering: geometricPrecision;
   -webkit-text-size-adjust: 100%;
 }
-@media (max-width: 30em) {
+@media (max-width: 33.978em) {
   body {
     font-size: .8em;
   }
@@ -304,7 +304,7 @@ blockquote {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 75em) {
+@media (max-width: 85.754em) {
   blockquote p {
     line-height: 1.4;
     text-align: left;
@@ -368,13 +368,13 @@ body > article > div > p:first-child {
   font-size: 1.618em;
   margin: .5em 0 1em;
 }
-@media (max-width: 75em) {
+@media (max-width: 85.754em) {
   body > article > div > p:first-child {
     line-height: 1.4;
     text-align: left;
   }
 }
-@media (max-width: 30em) {
+@media (max-width: 33.978em) {
   body > article > div > p:first-child {
     font-size: 1em;
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
@@ -460,7 +460,7 @@ textarea {
   width: 100%;
   border-radius: .2em;
 }
-@media (max-width: 30em) {
+@media (max-width: 33.978em) {
   input,
   textarea {
     font-size: 1.3em;

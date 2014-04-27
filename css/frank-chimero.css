@@ -21,7 +21,7 @@ body {
   text-rendering: geometricPrecision;
   -webkit-text-size-adjust: 100%;
 }
-@media (max-width: 30em) {
+@media (max-width: 31.5em) {
   body {
     font-size: .8em;
   }
@@ -118,7 +118,7 @@ body > .prevnext > div:first-of-type {
   order: 3;
   padding: 0;
 }
-@media (max-width: 40em) {
+@media (max-width: 43.5em) {
   body > article > h1,
   #home > h1,
   body > footer > div:first-of-type,
@@ -139,7 +139,7 @@ body > .prevnext > div:nth-of-type(2) {
   -webkit-order: 1;
   order: 1;
 }
-@media (max-width: 40em) {
+@media (max-width: 43.5em) {
   body > article > div:nth-of-type(1),
   #home > section,
   body > footer > nav,
@@ -179,7 +179,7 @@ body > .prevnext > div:last-of-type,
   order: 2;
   padding: 0;
 }
-@media (max-width: 40em) {
+@media (max-width: 36em) {
   body > article > div:last-of-type,
   body > footer > div:last-of-type,
   body > .prevnext > div:last-of-type,
@@ -330,7 +330,7 @@ blockquote {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 75em) {
+@media (max-width: 79.5em) {
   blockquote p {
     line-height: 1.4;
     text-align: left;
@@ -389,13 +389,13 @@ body > article > div > p:first-child {
   font-size: 1.5em;
   margin: .5em 0 1em;
 }
-@media (max-width: 75em) {
+@media (max-width: 79.5em) {
   body > article > div > p:first-child {
     line-height: 1.4;
     text-align: left;
   }
 }
-@media (max-width: 30em) {
+@media (max-width: 31.5em) {
   body > article > div > p:first-child {
     font-size: 1em;
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
@@ -481,7 +481,7 @@ textarea {
   width: 100%;
   border-radius: .2em;
 }
-@media (max-width: 30em) {
+@media (max-width: 31.5em) {
   input,
   textarea {
     font-size: 1.3em;
