@@ -71,6 +71,9 @@ body > .prevnext > * {
   margin: 0;
   overflow: hidden;
   padding: 0 1.458rem;
+  /* @media (min-width: 75em) {
+      padding: 3.09936rem 6.58852rem;
+  } */
 }
 @media (min-width: 30em) {
   body > article > *,
@@ -94,14 +97,6 @@ body > .prevnext > * {
   #home > *,
   body > .prevnext > * {
     padding: 2.12576rem 4.51887rem;
-  }
-}
-@media (min-width: 75em) {
-  body > article > *,
-  body > footer > *,
-  #home > *,
-  body > .prevnext > * {
-    padding: 3.09936rem 6.58852rem;
   }
 }
 

@@ -69,9 +69,9 @@ body > .prevnext {
      @media (min-width: 60em) {
          padding: #{power($unit,2)}rem #{power($unit,4)}rem;
      }
-     @media (min-width: 75em) {
+     /* @media (min-width: 75em) {
          padding: #{power($unit,3)}rem #{power($unit,5)}rem;
-     }
+     } */
  }
  body > footer > * {
      padding-top: #{power($unit,4)}em;
