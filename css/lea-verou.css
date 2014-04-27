@@ -85,7 +85,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 2.61792em 4.2358em;
+    padding: 1.618rem 4.2358em;
   }
 }
 @media (min-width: 50em) {
@@ -93,7 +93,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 4.2358em 6.85353em;
+    padding: 2.61792em 6.85353em;
   }
 }
 @media (min-width: 60em) {
@@ -101,7 +101,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 6.85353em 11.08901em;
+    padding: 4.2358em 11.08901em;
   }
 }
 

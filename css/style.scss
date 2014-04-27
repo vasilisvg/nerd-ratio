@@ -64,13 +64,13 @@ body > .prevnext {
          padding: #{$unit}rem #{power($unit,2)}em;
      }
      @media (min-width: 40em) {
-         padding: #{power($unit,2)}em #{power($unit,3)}em;
+         padding: #{$unit}rem #{power($unit,3)}em;
      }
      @media (min-width: 50em) {
-         padding: #{power($unit,3)}em #{power($unit,4)}em;
+         padding: #{power($unit,2)}em #{power($unit,4)}em;
      }
      @media (min-width: 60em) {
-         padding: #{power($unit,4)}em #{power($unit,5)}em;
+         padding: #{power($unit,3)}em #{power($unit,5)}em;
      }
  }
  body > footer > * {
