@@ -161,6 +161,30 @@ body > article > h1,
   padding: 0;
   line-height: 1;
 }
+@media (min-width: 30em) {
+  body > article > h1,
+  #home > h1 {
+    padding: 1.618rem 0;
+  }
+}
+@media (min-width: 40em) {
+  body > article > h1,
+  #home > h1 {
+    padding: 1.618rem 0;
+  }
+}
+@media (min-width: 50em) {
+  body > article > h1,
+  #home > h1 {
+    padding: 2.61792rem 1.618rem;
+  }
+}
+@media (min-width: 60em) {
+  body > article > h1,
+  #home > h1 {
+    padding: 4.2358rem 2.61792rem;
+  }
+}
 
 body > article h1 span,
 #home > h1 span {

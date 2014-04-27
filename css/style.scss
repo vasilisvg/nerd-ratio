@@ -156,6 +156,18 @@ body > article > h1,
     margin: 0;
     padding: 0;
     line-height: 1;
+    @media (min-width: 30em) {
+         padding: #{$unit}rem 0;
+     }
+     @media (min-width: 40em) {
+         padding: #{$unit}rem 0;
+     }
+     @media (min-width: 50em) {
+         padding: #{power($unit,2)}rem #{power($unit,1)}rem;
+     }
+     @media (min-width: 60em) {
+         padding: #{power($unit,3)}rem #{power($unit,2)}rem;
+     }
 }
 
 body > article h1 span,
