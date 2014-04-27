@@ -77,7 +77,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.732rem 2.99982em;
+    padding: 1.732rem 2.99982rem;
   }
 }
 @media (min-width: 40em) {
@@ -85,7 +85,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.732rem 5.1957em;
+    padding: 1.732rem 5.1957rem;
   }
 }
 @media (min-width: 50em) {
@@ -93,7 +93,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 2.99982em 8.99894em;
+    padding: 2.99982rem 8.99894rem;
   }
 }
 @media (min-width: 60em) {
@@ -101,7 +101,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 5.1957em 15.58617em;
+    padding: 5.1957rem 15.58617rem;
   }
 }
 
