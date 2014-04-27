@@ -172,7 +172,7 @@ body > article > h1,
          padding: #{$unit}rem 0;
      }
      @media (min-width: 60em) {
-         padding: #{power($unit,2)}rem #{power($unit,1)}rem;
+         padding: #{power($unit,2)}rem 0;
      }
      /* @media (min-width: 75em) {
          padding: #{power($unit,3)}rem #{power($unit,1)}rem;
