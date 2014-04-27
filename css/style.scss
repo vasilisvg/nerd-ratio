@@ -125,6 +125,15 @@ body > .prevnext {
  }
  #home > section {
      padding: #{$unit/2}rem #{$unit}rem #{$unit}rem;
+     @media (min-width: 30em) {
+         padding: #{$unit}rem #{power($unit,2)}rem;
+     }
+     @media (min-width: 45em) {
+         padding: #{$unit}rem #{power($unit,3)}rem;
+     }
+     @media (min-width: 60em) {
+         padding: #{power($unit,2)}rem #{power($unit,4)}rem;
+     }
  }
  body > article > div:last-of-type,
  body > footer > div:last-of-type,

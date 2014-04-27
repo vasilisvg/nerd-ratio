@@ -134,6 +134,21 @@ body > .prevnext > div:nth-of-type(2) {
 #home > section {
   padding: 0.707rem 1.414rem 1.414rem;
 }
+@media (min-width: 30em) {
+  #home > section {
+    padding: 1.414rem 1.9994rem;
+  }
+}
+@media (min-width: 45em) {
+  #home > section {
+    padding: 1.414rem 2.82715rem;
+  }
+}
+@media (min-width: 60em) {
+  #home > section {
+    padding: 1.9994rem 3.99758rem;
+  }
+}
 
 body > article > div:last-of-type,
 body > footer > div:last-of-type,
