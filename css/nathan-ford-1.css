@@ -75,7 +75,7 @@ body > .prevnext > * {
       padding: 2.82715rem 5.65258rem;
   } */
 }
-@media (min-width: 30em) {
+@media (min-width: 29.694em) {
   body > article > *,
   body > footer > *,
   #home > *,
@@ -83,7 +83,7 @@ body > .prevnext > * {
     padding: 1.414rem 1.9994rem;
   }
 }
-@media (min-width: 45em) {
+@media (min-width: 45.248em) {
   body > article > *,
   body > footer > *,
   #home > *,
@@ -91,7 +91,7 @@ body > .prevnext > * {
     padding: 1.414rem 2.82715rem;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 59.388em) {
   body > article > *,
   body > footer > *,
   #home > *,
@@ -134,17 +134,17 @@ body > .prevnext > div:nth-of-type(2) {
 #home > section {
   padding: 0.707rem 1.414rem 1.414rem;
 }
-@media (min-width: 30em) {
+@media (min-width: 29.694em) {
   #home > section {
     padding: 1.414rem 1.9994rem;
   }
 }
-@media (min-width: 45em) {
+@media (min-width: 45.248em) {
   #home > section {
     padding: 1.414rem 2.82715rem;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 59.388em) {
   #home > section {
     padding: 1.9994rem 3.99758rem;
   }
@@ -174,19 +174,19 @@ body > article > h1,
       padding: 2.82715rem 1.414rem;
   } */
 }
-@media (min-width: 30em) {
+@media (min-width: 29.694em) {
   body > article > h1,
   #home > h1 {
     padding: 1.414rem 0;
   }
 }
-@media (min-width: 45em) {
+@media (min-width: 45.248em) {
   body > article > h1,
   #home > h1 {
     padding: 1.414rem 0;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 59.388em) {
   body > article > h1,
   #home > h1 {
     padding: 1.9994rem 0;

@@ -60,13 +60,13 @@ body > .prevnext {
      margin: 0;
      overflow: hidden;
      padding: 0 #{$unit}rem;
-     @media (min-width: 30em) {
+     @media (min-width: #{$unit*21}em) {
          padding: #{$unit}rem #{power($unit,2)}rem;
      }
-     @media (min-width: 45em) {
+     @media (min-width: #{$unit*32}em) {
          padding: #{$unit}rem #{power($unit,3)}rem;
      }
-     @media (min-width: 60em) {
+     @media (min-width: #{$unit*42}em) {
          padding: #{power($unit,2)}rem #{power($unit,4)}rem;
      }
      /* @media (min-width: 75em) {
@@ -125,13 +125,13 @@ body > .prevnext {
  }
  #home > section {
      padding: #{$unit/2}rem #{$unit}rem #{$unit}rem;
-     @media (min-width: 30em) {
+     @media (min-width: #{$unit*21}em) {
          padding: #{$unit}rem #{power($unit,2)}rem;
      }
-     @media (min-width: 45em) {
+     @media (min-width: #{$unit*32}em) {
          padding: #{$unit}rem #{power($unit,3)}rem;
      }
-     @media (min-width: 60em) {
+     @media (min-width: #{$unit*42}em) {
          padding: #{power($unit,2)}rem #{power($unit,4)}rem;
      }
  }
@@ -165,13 +165,13 @@ body > article > h1,
     margin: 0;
     padding: 0;
     line-height: 1;
-    @media (min-width: 30em) {
+    @media (min-width: #{$unit*21}em) {
          padding: #{$unit}rem 0;
      }
-     @media (min-width: 45em) {
+     @media (min-width: #{$unit*32}em) {
          padding: #{$unit}rem 0;
      }
-     @media (min-width: 60em) {
+     @media (min-width: #{$unit*42}em) {
          padding: #{power($unit,2)}rem 0;
      }
      /* @media (min-width: 75em) {
