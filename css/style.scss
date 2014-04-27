@@ -227,9 +227,7 @@ p {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
-    @media (min-width: 30em) {
-        text-align: justify;
-    }
+    
 }
 h1 + p,
 h2 + p,

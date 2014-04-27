@@ -212,11 +212,6 @@ p {
   -moz-hyphens: auto;
   hyphens: auto;
 }
-@media (min-width: 30em) {
-  p {
-    text-align: justify;
-  }
-}
 
 h1 + p,
 h2 + p,
