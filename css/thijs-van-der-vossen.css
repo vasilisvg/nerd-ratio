@@ -395,7 +395,7 @@ body > article > div > p:first-child {
     text-align: left;
   }
 }
-@media (max-width: 36.372em) {
+@media (max-width: 41.568em) {
   body > article > div > p:first-child {
     font-size: 1em;
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
