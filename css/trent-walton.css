@@ -72,6 +72,14 @@ body > .prevnext > * {
   overflow: hidden;
   padding: 0 1.732rem;
 }
+@media (min-width: 30em) {
+  body > article > *,
+  body > footer > *,
+  #home > *,
+  body > .prevnext > * {
+    padding: 1.732rem 2.99982em;
+  }
+}
 
 body > footer > * {
   padding-top: 8.99894em;
