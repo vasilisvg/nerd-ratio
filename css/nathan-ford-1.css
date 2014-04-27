@@ -182,7 +182,7 @@ body > article > h1,
 @media (min-width: 60em) {
   body > article > h1,
   #home > h1 {
-    padding: 2.82715rem 1.9994rem;
+    padding: 2.82715rem 1.414rem;
   }
 }
 
