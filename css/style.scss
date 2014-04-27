@@ -63,13 +63,13 @@ body > .prevnext {
      @media (min-width: 30em) {
          padding: #{$unit}rem #{power($unit,2)}rem;
      }
-     @media (min-width: 40em) {
+     @media (min-width: 45em) {
          padding: #{$unit}rem #{power($unit,3)}rem;
      }
-     @media (min-width: 50em) {
+     @media (min-width: 60em) {
          padding: #{power($unit,2)}rem #{power($unit,4)}rem;
      }
-     @media (min-width: 60em) {
+     @media (min-width: 75em) {
          padding: #{power($unit,3)}rem #{power($unit,5)}rem;
      }
  }
@@ -159,13 +159,13 @@ body > article > h1,
     @media (min-width: 30em) {
          padding: #{$unit}rem 0;
      }
-     @media (min-width: 40em) {
+     @media (min-width: 45em) {
          padding: #{$unit}rem 0;
      }
-     @media (min-width: 50em) {
+     @media (min-width: 60em) {
          padding: #{power($unit,2)}rem #{power($unit,1)}rem;
      }
-     @media (min-width: 60em) {
+     @media (min-width: 75em) {
          padding: #{power($unit,3)}rem #{power($unit,1)}rem;
      }
 }
