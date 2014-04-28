@@ -206,7 +206,9 @@ body > article h1 span,
 }
 
 body > article h1 a,
-#home > h1 a {
+#home > h1 a,
+body > article h1 a:visited,
+#home > h1 a:visited {
   color: white;
   text-decoration: none;
 }

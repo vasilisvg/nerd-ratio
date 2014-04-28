@@ -191,7 +191,9 @@ body > article h1 span,
     transform-origin: 0 100%;
 }
 body > article h1 a,
-#home > h1 a {
+#home > h1 a,
+body > article h1 a:visited,
+#home > h1 a:visited {
     color: $h-color;
     text-decoration: none;
 }
@@ -319,6 +321,7 @@ ins {
 }
 #home article h1 a {
     text-decoration: none;
+
 }
 h2,
 legend,
