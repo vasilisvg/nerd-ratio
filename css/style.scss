@@ -252,7 +252,8 @@ div > p:first-child {
 a {
     color: blue;
 }
-a:visited {
+a:visited,
+.details a {
     color: $c-color;
 }
 a:hover,

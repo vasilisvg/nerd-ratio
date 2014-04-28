@@ -274,7 +274,8 @@ a {
   color: blue;
 }
 
-a:visited {
+a:visited,
+.details a {
   color: black;
 }
 
