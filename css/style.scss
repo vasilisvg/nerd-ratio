@@ -250,6 +250,9 @@ div > p:first-child {
 a {
     color: blue;
 }
+a:visited {
+    color: purple;
+}
 a:hover,
 a:focus {
     color: $c-content;

@@ -264,6 +264,10 @@ a {
   color: blue;
 }
 
+a:visited {
+  color: purple;
+}
+
 a:hover,
 a:focus {
   color: white;
