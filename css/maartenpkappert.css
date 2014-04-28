@@ -268,6 +268,7 @@ a {
 a:visited,
 .details a {
   color: #464747;
+  font-weight: bold;
 }
 
 a:hover,
