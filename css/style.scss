@@ -259,7 +259,9 @@ a:visited,
     color: $c-color;
 }
 a:hover,
-a:focus {
+a:focus,
+a:visited:hover,
+a:visited:focus {
     color: $c-content;
     background: $c-color;
 }

@@ -273,7 +273,9 @@ a:visited,
 }
 
 a:hover,
-a:focus {
+a:focus,
+a:visited:hover,
+a:visited:focus {
   color: #f5f8f3;
   background: black;
 }
