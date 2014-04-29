@@ -275,8 +275,8 @@ a:visited,
 
 a:hover,
 a:focus,
-a:visited:hover,
-a:visited:focus {
+#home article h1 a:hover,
+#home article h1 a:focus {
   color: white;
   background: black;
 }
