@@ -267,7 +267,7 @@ a {
 
 a:visited,
 .details a,
-.more-link
+.more-link,
 #home > section > article footer a {
   color: black;
 }
