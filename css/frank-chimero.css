@@ -302,7 +302,11 @@ a:visited,
 a:hover,
 a:focus,
 #home article h1 a:hover,
-#home article h1 a:focus {
+#home article h1 a:focus,
+#home > section > article footer a:hover,
+#home > section > article footer a:focus,
+.details a:hover,
+.details a:focus {
   color: white;
   background: black;
 }
