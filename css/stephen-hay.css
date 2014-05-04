@@ -352,6 +352,11 @@ ins {
   color: black;
 }
 
+#home article h1 a:hover,
+#home article h1 a:focus {
+  box-shadow: -.3em 0 0 black, .3em 0 0 black;
+}
+
 h2,
 legend,
 #home article h1 {
