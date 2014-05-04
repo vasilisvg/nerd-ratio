@@ -204,6 +204,10 @@ body > article > h1 a:last-child:focus,
     color: $h-color;
     background: none;
 }
+body > article h1 a:first-child:hover,
+body > article h1 a:first-child:focus {
+    box-shadow: -.3em 0 0 black;
+}
 body > article h1 a:first-child:after {
     content: ': ';
 }
