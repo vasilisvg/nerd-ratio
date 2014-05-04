@@ -360,7 +360,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1.5px 0 #ff7f2f;
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1.5px 0 #ff7f2f, 0.3em 1.5px 0 #ff7f2f;
 }
 
 h2,
