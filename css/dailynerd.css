@@ -354,7 +354,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -.3em 0 0 black, .3em 0 0 black;
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #d42127;
 }
 
 h2,
