@@ -41,6 +41,11 @@ code, pre, kbd {
     font-family: "Fedra Mono Screen Regular";
     font-weight: normal !important;
 }
+p > code, kbd {
+    border: 1px solid hsl(0, 0%, 87%);
+    background: hsl(0, 0%, 97%);
+    border-radius: 0.188em;
+}
 
 /* @group Layout {{{
 ================================================================= */
