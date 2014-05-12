@@ -60,6 +60,15 @@ p > code, kbd {
   padding: 0 .2em;
 }
 
+abbr {
+  text-decoration: none;
+  border-bottom: 1px dotted #0555c8;
+}
+
+abbr[title] {
+  cursor: help;
+}
+
 /* @group Layout {{{
 ================================================================= */
 body > article,

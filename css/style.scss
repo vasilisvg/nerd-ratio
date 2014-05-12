@@ -47,6 +47,13 @@ p > code, kbd {
     border-radius: 0.188em;
     padding: 0 .2em;
 }
+abbr {
+    text-decoration: none;
+    border-bottom: 1px dotted $c-div;
+}
+abbr[title] {
+    cursor: help;
+}
 
 /* @group Layout {{{
 ================================================================= */
