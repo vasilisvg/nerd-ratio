@@ -57,7 +57,7 @@ p > code, kbd {
   border: 1px solid #dedede;
   background: #f7f7f7;
   border-radius: 0.188em;
-  padding: .2em;
+  padding: 0 .2em;
 }
 
 /* @group Layout {{{
