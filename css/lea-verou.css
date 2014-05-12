@@ -55,7 +55,7 @@ code, pre, kbd {
 
 p > code, kbd {
   border: 1px solid #dedede;
-  background: #ff7f2f;
+  background: #f7f7f7;
   border-radius: 0.188em;
   padding: 0 .2em;
 }
@@ -573,7 +573,7 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   background: #f7f7f7;
-  border: 1px solid #dedede;
+  border: 1px solid #ff7f2f;
   border-radius: 0.188em;
 }
 
