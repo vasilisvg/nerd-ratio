@@ -43,7 +43,7 @@ code, pre, kbd {
 }
 p > code, kbd {
     border: 1px solid hsl(0, 0%, 87%);
-    background: hsl(0, 0%, 97%);
+    background: $c-div;
     border-radius: 0.188em;
     padding: 0 .2em;
 }
