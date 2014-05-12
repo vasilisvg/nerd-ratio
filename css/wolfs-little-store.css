@@ -567,7 +567,7 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   background: #f7f7f7;
-  border: 1px solid #0555c8;
+  border: 1px solid #dedede;
   border-radius: 0.188em;
 }
 
