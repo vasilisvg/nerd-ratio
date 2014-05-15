@@ -62,7 +62,7 @@ p > code, kbd {
 
 abbr {
   text-decoration: none;
-  border-bottom: 1px dotted #f2f1f2;
+  border-bottom: 1px dotted #494c50;
 }
 
 abbr[title] {
@@ -126,12 +126,12 @@ body > article > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
   font-size: 2.82715em;
-  background: #288caa;
-  color: white;
+  background: white;
+  color: #932a50;
   -webkit-flex: 3.99758 1 3.99758px;
   flex: 3.99758 1 3.99758px;
-  -webkit-order: 3;
-  order: 3;
+  -webkit-order: 2;
+  order: 2;
   padding: 0;
 }
 
@@ -139,7 +139,7 @@ body > article > div:nth-of-type(1),
 #home > section,
 body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
-  background: #f5f8f3;
+  background: white;
   color: black;
   -webkit-flex: 15.98068 1 15.98068px;
   flex: 15.98068 1 15.98068px;
@@ -170,11 +170,11 @@ body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: #f2f1f2;
-  -webkit-flex: 2.82715 1 2.82715px;
-  flex: 2.82715 1 2.82715px;
-  -webkit-order: 2;
-  order: 2;
+  background: #494c50;
+  -webkit-flex: 1.414 1 1.414px;
+  flex: 1.414 1 1.414px;
+  -webkit-order: 3;
+  order: 3;
   padding: 0;
 }
 
@@ -225,7 +225,7 @@ body > article h1 a,
 #home > h1 a,
 body > article h1 a:visited,
 #home > h1 a:visited {
-  color: white;
+  color: #932a50;
   text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ body > article > h1 a:last-child:hover,
 body > article > h1 a:last-child:focus,
 #home > h1 a:last-child:hover,
 #home > h1 a:last-child:focus {
-  color: white;
+  color: #932a50;
   background: none;
 }
 
@@ -256,7 +256,7 @@ body > article h1 a:first-child:after {
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid #f2f1f2;
+  border-bottom: 1px solid #494c50;
   width: 100%;
   max-width: 23em;
   display: block;
@@ -301,7 +301,7 @@ a:focus,
 #home > section > article footer a:focus,
 .details a:hover,
 .details a:focus {
-  color: #f5f8f3;
+  color: white;
   background: black;
 }
 
@@ -365,7 +365,7 @@ ins {
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid #f2f1f2;
+  border-bottom: 1px solid #494c50;
 }
 
 #home article h1 a {
@@ -375,7 +375,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #f2f1f2, 0.3em 1px 0 #f2f1f2;
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #494c50, 0.3em 1px 0 #494c50;
 }
 
 h2,
@@ -429,7 +429,7 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid #f2f1f2;
+  border: 1px solid #494c50;
   padding: 0.3535em;
 }
 
