@@ -75,8 +75,8 @@ mark,
 }
 
 [fragmention] {
-  -webkit-animation: fragmentation 5s both;
-  animation: fragmentation 5s both;
+  -webkit-animation: fragmentation 5s ease-in both;
+  animation: fragmentation 5s ease-in both;
 }
 
 @keyframes fragmentation {
