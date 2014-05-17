@@ -59,8 +59,8 @@ mark,
     background: yellow;
 }
 [fragmention] {
-    -webkit-animation: fragmentation 1s both;
-    animation: fragmentation 1s both;
+    -webkit-animation: fragmentation 5s both;
+    animation: fragmentation 5s both;
 }
 @keyframes fragmentation {
     to {
