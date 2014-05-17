@@ -72,6 +72,11 @@ abbr[title] {
 mark,
 [fragmention] {
   background: yellow;
+  transition: 1s;
+}
+
+[fragmention]:target {
+  background: transparent;
 }
 
 /* @group Layout {{{
