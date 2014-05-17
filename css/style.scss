@@ -54,6 +54,11 @@ abbr {
 abbr[title] {
     cursor: help;
 }
+mark,
+[fragmention] {
+    background: yellow;
+    
+}
 
 /* @group Layout {{{
 ================================================================= */

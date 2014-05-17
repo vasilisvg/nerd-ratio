@@ -10,6 +10,10 @@
     </nav>
     <div></div>
 </footer>
+<script>
+// https://github.com/chapmanu/fragmentions
+"use strict";"fragmention"in window.location||function(){function a(b,c){for(var f,d=b.childNodes,e=0,g=[];f=d[e];++e)1==f.nodeType&&-1!==(f.innerText||f.textContent||"").replace(/\s+/g," ").indexOf(c)&&(g=g.concat(a(f,c)));return g.length?g:b}function b(){var b=location.href.match(/#((?:#|%23)?)(.+)/)||[0,"",""],d=document.getElementById(b[1]+b[2]),e=decodeURIComponent(b[2]).replace(/\+/g," ").split("  ");if(location.fragmention=e[0],location.fragmentionIndex=parseFloat(e[1])||0,c&&(c.removeAttribute("fragmention"),c.runtimeStyle&&(c.runtimeStyle.windows=c.runtimeStyle.windows)),!d&&location.fragmention){var f=a(document,location.fragmention),g=f.length,h=g&&location.fragmentionIndex%g,i=g&&h>=0?h:g+h;c=g&&f[i],c?(c.scrollIntoView(),c.setAttribute("fragmention",""),c.runtimeStyle&&(c.runtimeStyle.windows=c.runtimeStyle.windows)):c=null}}location.fragmention=location.fragmention||"";var c;"addEventListener"in window?(window.addEventListener("hashchange",b),document.addEventListener("DOMContentLoaded",b)):(window.attachEvent("onhashchange",b),document.attachEvent("onreadystatechange",function(){"c"===document.readyState[0]&&b()}))}();
+</script>
 <?php
 $key="has-code-block";
 $hasBlock = get_post_meta($post->ID, $key, true);
