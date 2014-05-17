@@ -72,13 +72,17 @@ abbr[title] {
 mark,
 [fragmention] {
   background: yellow;
-  transition: 1s;
 }
 
-[fragmention]:target {
-  background: transparent;
+[fragmention] {
+  animation: fragmentation 1s;
 }
 
+@keyframes fragmentation {
+  to {
+    background: transparent;
+  }
+}
 /* @group Layout {{{
 ================================================================= */
 body > article,
