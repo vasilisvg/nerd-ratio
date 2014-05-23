@@ -387,10 +387,9 @@ figure {
 }
 
 figure img {
-  max-height: 90vh;
   height: auto;
-  width: 100%;
-  max-width: 1272px;
+  width: auto;
+  max-width: 100%;
 }
 
 figure audio {
