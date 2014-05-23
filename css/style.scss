@@ -384,7 +384,7 @@ figure img {
     max-width: 100%;
 }
 figure audio {
-    margin: 1em;
+    margin: #{($unit)}em;
 }
 figure > p {
     display: none;
