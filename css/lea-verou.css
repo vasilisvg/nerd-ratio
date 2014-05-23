@@ -423,7 +423,22 @@ figure > p {
 figcaption {
   position: relative;
   width: 100%;
-  padding: 0 1em;
+  padding: 0 1.618rem;
+}
+@media (min-width: 33.978em) {
+  figcaption {
+    padding: 0 2.61792rem;
+  }
+}
+@media (min-width: 51.776em) {
+  figcaption {
+    padding: 0 4.2358rem;
+  }
+}
+@media (min-width: 67.956em) {
+  figcaption {
+    padding: 0 6.85353rem;
+  }
 }
 figcaption small {
   position: absolute;

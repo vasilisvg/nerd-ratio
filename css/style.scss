@@ -392,7 +392,16 @@ figure > p {
 figcaption {
     position: relative;
     width: 100%;
-    padding: 0 1em;
+    padding: 0 #{($unit)}rem;
+    @media (min-width: #{$unit*21}em) {
+        padding: 0 #{power($unit,2)}rem;
+    }
+    @media (min-width: #{$unit*32}em) {
+        padding: 0 #{power($unit,3)}rem;
+    }
+    @media (min-width: #{$unit*42}em) {
+        padding: 0 #{power($unit,4)}rem;
+    }
     small {
         position: absolute;
         right: 0;
