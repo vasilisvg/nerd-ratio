@@ -425,6 +425,8 @@ figure > p {
 figcaption {
   position: relative;
   width: 100%;
+  border: solid #dedede;
+  border-width: 1px 0 0;
   padding: 0 1.618rem;
 }
 @media (min-width: 33.978em) {

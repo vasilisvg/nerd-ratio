@@ -394,6 +394,8 @@ figure > p {
 figcaption {
     position: relative;
     width: 100%;
+    border: solid hsl(0, 0%, 87%);
+    border-width: 1px 0 0;
     padding: 0 #{($unit)}rem;
     @media (min-width: #{$unit*21}em) {
         padding: 0 #{power($unit,2)}rem;
