@@ -386,6 +386,23 @@ figure {
   align-items: center;
 }
 
+figure img {
+  max-height: 90vh;
+}
+
+figure > p {
+  display: none;
+}
+
+figcaption {
+  position: relative;
+}
+figcaption small {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+}
+
 p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
   max-width: 32.522em;
 }
