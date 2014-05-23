@@ -351,10 +351,8 @@ img {
 }
 
 figure {
-  margin: 2em 0;
   background: #f7f7f7;
   border: 1px solid #dedede;
-  width: 100%;
   min-height: 5vh;
   display: -webkit-box;
   display: -moz-box;
@@ -384,6 +382,9 @@ figure {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: 2em 0 2em -2.99982rem;
+  width: calc(100% + 5.99965rem);
+  padding: 0 1.732rem;
 }
 
 figure img {
