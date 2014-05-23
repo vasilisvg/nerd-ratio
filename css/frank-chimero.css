@@ -423,6 +423,7 @@ figure > p {
 
 figcaption {
   position: relative;
+  width: 100%;
 }
 figcaption small {
   position: absolute;
