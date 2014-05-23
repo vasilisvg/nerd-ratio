@@ -411,6 +411,8 @@ figcaption small {
   position: absolute;
   right: 0;
   bottom: 100%;
+  background: #f7f7f7;
+  padding: 0 .1em;
 }
 
 p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]), img {
