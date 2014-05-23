@@ -326,6 +326,41 @@ img {
     display: block;
     width: 100%;
 }
+figure {
+    margin: 2em 0;
+    background: hsl(212.877, 92%, 85%);
+    border: 1px solid hsl(0, 0%, 87%);
+    width: 100%;
+    min-height: 5vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]),img {
     max-width: #{23*$unit}em;
 }
