@@ -32,12 +32,13 @@ h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
   font-weight: bold;
 }
 
-b {
+b,
+em strong {
   font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
   font-weight: bold;
 }
 
-em, i, footer ul:not(.details) li {
+em, i, footer ul:not(.details) li, q {
   font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
   font-style: italic;
 }
