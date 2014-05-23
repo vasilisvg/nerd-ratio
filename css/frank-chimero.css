@@ -411,7 +411,24 @@ figure {
   align-items: center;
   margin: 2em 0 2em -2.25rem;
   width: calc(100% + 4.5rem);
-  padding: 0 1.5rem;
+}
+@media (min-width: 31.5em) {
+  figure {
+    margin: 2em 0 2em -2.25rem;
+    width: calc(100% + 4.5rem);
+  }
+}
+@media (min-width: 48em) {
+  figure {
+    margin: 2em 0 2em -3.375rem;
+    width: calc(100% + 6.75rem);
+  }
+}
+@media (min-width: 63em) {
+  figure {
+    margin: 2em 0 2em -5.0625rem;
+    width: calc(100% + 10.125rem);
+  }
 }
 
 figure img {

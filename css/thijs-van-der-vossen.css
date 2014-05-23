@@ -393,7 +393,24 @@ figure {
   align-items: center;
   margin: 2em 0 2em -2.99982rem;
   width: calc(100% + 5.99965rem);
-  padding: 0 1.732rem;
+}
+@media (min-width: 36.372em) {
+  figure {
+    margin: 2em 0 2em -2.99982rem;
+    width: calc(100% + 5.99965rem);
+  }
+}
+@media (min-width: 55.424em) {
+  figure {
+    margin: 2em 0 2em -5.1957rem;
+    width: calc(100% + 10.39139rem);
+  }
+}
+@media (min-width: 72.744em) {
+  figure {
+    margin: 2em 0 2em -8.99894rem;
+    width: calc(100% + 17.99789rem);
+  }
 }
 
 figure img {

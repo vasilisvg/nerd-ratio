@@ -360,15 +360,20 @@ figure {
     align-items: center;
     margin: 2em 0 2em -#{power($unit,2)}rem;
     width: calc(100% + #{power($unit,2)*2}rem);
-    padding: 0 #{$unit}rem;
     @media (min-width: #{$unit*21}em) {
         //padding: #{$unit}rem #{power($unit,2)}rem;
+        margin: 2em 0 2em -#{power($unit,2)}rem;
+        width: calc(100% + #{power($unit,2)*2}rem);
     }
     @media (min-width: #{$unit*32}em) {
         //padding: #{$unit}rem #{power($unit,3)}rem;
+        margin: 2em 0 2em -#{power($unit,3)}rem;
+        width: calc(100% + #{power($unit,3)*2}rem);
     }
     @media (min-width: #{$unit*42}em) {
         //padding: #{power($unit,2)}rem #{power($unit,4)}rem;
+        margin: 2em 0 2em -#{power($unit,4)}rem;
+        width: calc(100% + #{power($unit,4)*2}rem);
     }
 
 }
