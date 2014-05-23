@@ -361,7 +361,8 @@ img {
 
 figure {
   background: #f7f7f7;
-  border: 1px solid #dedede;
+  border: solid #dedede;
+  border-width: 1px 0;
   min-height: 5vh;
   display: -webkit-box;
   display: -moz-box;
