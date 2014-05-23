@@ -394,6 +394,10 @@ figure img {
   max-width: 1272px;
 }
 
+figure audio {
+  margin: 1em;
+}
+
 figure > p {
   display: none;
 }
@@ -401,6 +405,7 @@ figure > p {
 figcaption {
   position: relative;
   width: 100%;
+  padding: 0 1em;
 }
 figcaption small {
   position: absolute;
