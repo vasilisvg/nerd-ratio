@@ -357,7 +357,6 @@ figure {
   background: #f7f7f7;
   border: solid #dedede;
   border-width: 1px 0;
-  min-height: 5vh;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
