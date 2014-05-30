@@ -28,5 +28,11 @@ $s-h1 : 3;
 $s-h2 : 2;
 $s-h3 : 1;
 
+// alternative header sizings for smaller screens
+$ss-h1 : 2;
+$ss-h2 : 1;
+$ss-h3 : 0;
+$sp-h : 4;
+
 
 @import "style.scss";
