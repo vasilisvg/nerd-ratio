@@ -488,7 +488,7 @@ blockquote > :last-child::after {
 
 [itemprop="commentText"] blockquote {
   font-size: inherit;
-  font-family: "Fedra Sans Screen Bold Italic", helvetica, arial, sans-serif;
+  font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
   font-style: italic;
 }
 
