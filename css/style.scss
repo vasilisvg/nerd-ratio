@@ -437,6 +437,11 @@ blockquote > :last-child::after {
     position: absolute;
     margin-left: .25em;
 }
+[commentText] blockquote {
+    font-size: inherit;
+    font-family: "Fedra Sans Screen Bold Italic", helvetica, arial, sans-serif;
+    font-style: italic;
+}
 ins {
     text-decoration: none;
     background: yellow;
