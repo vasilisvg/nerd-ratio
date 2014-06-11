@@ -150,8 +150,8 @@ body > .prevnext > div:first-of-type {
   font-size: 3.375em;
   background: #ffb600;
   color: white;
-  -webkit-flex: 129.74634 1 129.74634px;
-  flex: 129.74634 1 129.74634px;
+  -webkit-flex: 129.7463378906 1 129.7463378906px;
+  flex: 129.7463378906 1 129.7463378906px;
   -webkit-order: 2;
   order: 2;
   padding: 0;
@@ -163,8 +163,8 @@ body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
   background: white;
   color: black;
-  -webkit-flex: 437.89389 1 437.89389px;
-  flex: 437.89389 1 437.89389px;
+  -webkit-flex: 437.8938903809 1 437.8938903809px;
+  flex: 437.8938903809 1 437.8938903809px;
   -webkit-order: 3;
   order: 3;
 }
@@ -308,7 +308,10 @@ a {
   color: blue;
 }
 
-a:visited,
+a:visited {
+  color: #639;
+}
+
 .details a,
 .more-link,
 #home > section > article footer a {

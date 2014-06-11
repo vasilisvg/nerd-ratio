@@ -110,7 +110,7 @@ body > .prevnext > * {
   overflow: hidden;
   padding: 0 1.732rem;
   /* @media (min-width: 75em) {
-      padding: 5.1957rem 15.58617rem;
+      padding: 5.195695168rem 15.5861710617rem;
   } */
 }
 @media (min-width: 36.372em) {
@@ -118,7 +118,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.732rem 2.99982rem;
+    padding: 1.732rem 2.999824rem;
   }
 }
 @media (min-width: 55.424em) {
@@ -126,7 +126,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.732rem 5.1957rem;
+    padding: 1.732rem 5.195695168rem;
   }
 }
 @media (min-width: 72.744em) {
@@ -134,12 +134,12 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 2.99982rem 8.99894rem;
+    padding: 2.999824rem 8.998944031rem;
   }
 }
 
 body > footer > * {
-  padding-top: 8.99894em;
+  padding-top: 8.998944031em;
   padding-bottom: 1.732em;
 }
 
@@ -147,11 +147,11 @@ body > article > h1,
 #home > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
-  font-size: 5.1957em;
+  font-size: 5.195695168em;
   background: deeppink;
   color: white;
-  -webkit-flex: 15.58617 1 15.58617px;
-  flex: 15.58617 1 15.58617px;
+  -webkit-flex: 15.5861710617 1 15.5861710617px;
+  flex: 15.5861710617 1 15.5861710617px;
   -webkit-order: 1;
   order: 1;
   padding: 0;
@@ -161,7 +161,7 @@ body > .prevnext > div:first-of-type {
   #home > h1,
   body > footer > div:first-of-type,
   body > .prevnext > div:first-of-type {
-    font-size: 2.99982em;
+    font-size: 2.999824em;
   }
 }
 
@@ -171,8 +171,8 @@ body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
   background: white;
   color: black;
-  -webkit-flex: 26.99525 1 26.99525px;
-  flex: 26.99525 1 26.99525px;
+  -webkit-flex: 26.9952482788 1 26.9952482788px;
+  flex: 26.9952482788 1 26.9952482788px;
   -webkit-order: 3;
   order: 3;
 }
@@ -182,17 +182,17 @@ body > .prevnext > div:nth-of-type(2) {
 }
 @media (min-width: 36.372em) {
   #home > section {
-    padding: 1.732rem 2.99982rem;
+    padding: 1.732rem 2.999824rem;
   }
 }
 @media (min-width: 55.424em) {
   #home > section {
-    padding: 1.732rem 5.1957rem;
+    padding: 1.732rem 5.195695168rem;
   }
 }
 @media (min-width: 72.744em) {
   #home > section {
-    padding: 2.99982rem 8.99894rem;
+    padding: 2.999824rem 8.998944031rem;
   }
 }
 
@@ -217,7 +217,7 @@ body > article > h1,
   padding: 0;
   line-height: 1;
   /* @media (min-width: 75em) {
-      padding: 5.1957rem 1.732rem;
+      padding: 5.195695168rem 1.732rem;
   } */
 }
 @media (min-width: 36.372em) {
@@ -235,7 +235,7 @@ body > article > h1,
 @media (min-width: 72.744em) {
   body > article > h1,
   #home > h1 {
-    padding: 2.99982rem 0;
+    padding: 2.999824rem 0;
   }
 }
 
@@ -280,7 +280,7 @@ body > article h1 a:first-child:after {
 /* @group Content {{{
 ================================================================= */
 #home > section > article {
-  margin: 0 0 5.1957em;
+  margin: 0 0 5.195695168em;
 }
 
 #home > section > article footer:before,
@@ -317,7 +317,10 @@ a {
   color: blue;
 }
 
-a:visited,
+a:visited {
+  color: #639;
+}
+
 .details a,
 .more-link,
 #home > section > article footer a {
@@ -393,25 +396,25 @@ figure {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 2em 0 2em -2.99982rem;
-  width: calc(100% + 5.99965rem);
+  margin: 2em 0 2em -2.999824rem;
+  width: calc(100% + 5.999648rem);
 }
 @media (min-width: 36.372em) {
   figure {
-    margin: 2em 0 2em -2.99982rem;
-    width: calc(100% + 5.99965rem);
+    margin: 2em 0 2em -2.999824rem;
+    width: calc(100% + 5.999648rem);
   }
 }
 @media (min-width: 55.424em) {
   figure {
-    margin: 2em 0 2em -5.1957rem;
-    width: calc(100% + 10.39139rem);
+    margin: 2em 0 2em -5.195695168rem;
+    width: calc(100% + 10.391390336rem);
   }
 }
 @media (min-width: 72.744em) {
   figure {
-    margin: 2em 0 2em -8.99894rem;
-    width: calc(100% + 17.99789rem);
+    margin: 2em 0 2em -8.998944031rem;
+    width: calc(100% + 17.997888062rem);
   }
 }
 
@@ -438,17 +441,17 @@ figcaption {
 }
 @media (min-width: 36.372em) {
   figcaption {
-    padding: 0 2.99982rem;
+    padding: 0 2.999824rem;
   }
 }
 @media (min-width: 55.424em) {
   figcaption {
-    padding: 0 5.1957rem;
+    padding: 0 5.195695168rem;
   }
 }
 @media (min-width: 72.744em) {
   figcaption {
-    padding: 0 8.99894rem;
+    padding: 0 8.998944031rem;
   }
 }
 figcaption small {
@@ -521,7 +524,7 @@ ins {
 h2,
 legend,
 #home article h1 {
-  font-size: 2.99982em;
+  font-size: 2.999824em;
   line-height: 1.2;
   font-weight: bold;
 }
@@ -545,12 +548,12 @@ h3,
   }
 }
 [itemprop="UserComment"] {
-  margin: 2.99982em 0;
+  margin: 2.999824em 0;
 }
 
 article aside,
 article > div > section {
-  margin: 8.99894em 0;
+  margin: 8.998944031em 0;
 }
 
 body > article > div > p:first-child {

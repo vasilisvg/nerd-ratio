@@ -172,8 +172,8 @@ body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
   background: white;
   color: black;
-  -webkit-flex: 25.62891 1 25.62891px;
-  flex: 25.62891 1 25.62891px;
+  -webkit-flex: 25.62890625 1 25.62890625px;
+  flex: 25.62890625 1 25.62890625px;
   -webkit-order: 1;
   order: 1;
 }
@@ -182,8 +182,8 @@ body > .prevnext > div:nth-of-type(2) {
   #home > section,
   body > footer > nav,
   body > .prevnext > div:nth-of-type(2) {
-    -webkit-flex: 25.62891 1 25.62891px;
-    flex: 25.62891 1 25.62891px;
+    -webkit-flex: 25.62890625 1 25.62890625px;
+    flex: 25.62890625 1 25.62890625px;
   }
 }
 
@@ -335,7 +335,10 @@ a {
   color: blue;
 }
 
-a:visited,
+a:visited {
+  color: #639;
+}
+
 .details a,
 .more-link,
 #home > section > article footer a {

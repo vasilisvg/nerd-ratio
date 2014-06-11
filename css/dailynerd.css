@@ -110,7 +110,7 @@ body > .prevnext > * {
   overflow: hidden;
   padding: 0 1.458rem;
   /* @media (min-width: 75em) {
-      padding: 3.09936rem 6.58852rem;
+      padding: 3.099363912rem 6.588516227rem;
   } */
 }
 @media (min-width: 30.618em) {
@@ -118,7 +118,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.458rem 2.12576rem;
+    padding: 1.458rem 2.125764rem;
   }
 }
 @media (min-width: 46.656em) {
@@ -126,7 +126,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.458rem 3.09936rem;
+    padding: 1.458rem 3.099363912rem;
   }
 }
 @media (min-width: 61.236em) {
@@ -134,12 +134,12 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 2.12576rem 4.51887rem;
+    padding: 2.125764rem 4.5188725837rem;
   }
 }
 
 body > footer > * {
-  padding-top: 4.51887em;
+  padding-top: 4.5188725837em;
   padding-bottom: 1.458em;
 }
 
@@ -147,11 +147,11 @@ body > article > h1,
 #home > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
-  font-size: 3.09936em;
+  font-size: 3.099363912em;
   background: #037072;
   color: white;
-  -webkit-flex: 6.58852 1 6.58852px;
-  flex: 6.58852 1 6.58852px;
+  -webkit-flex: 6.588516227 1 6.588516227px;
+  flex: 6.588516227 1 6.588516227px;
   -webkit-order: 1;
   order: 1;
   padding: 0;
@@ -163,8 +163,8 @@ body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
   background: whitesmoke;
   color: black;
-  -webkit-flex: 20.42021 1 20.42021px;
-  flex: 20.42021 1 20.42021px;
+  -webkit-flex: 20.4202094277 1 20.4202094277px;
+  flex: 20.4202094277 1 20.4202094277px;
   -webkit-order: 3;
   order: 3;
 }
@@ -174,17 +174,17 @@ body > .prevnext > div:nth-of-type(2) {
 }
 @media (min-width: 30.618em) {
   #home > section {
-    padding: 1.458rem 2.12576rem;
+    padding: 1.458rem 2.125764rem;
   }
 }
 @media (min-width: 46.656em) {
   #home > section {
-    padding: 1.458rem 3.09936rem;
+    padding: 1.458rem 3.099363912rem;
   }
 }
 @media (min-width: 61.236em) {
   #home > section {
-    padding: 2.12576rem 4.51887rem;
+    padding: 2.125764rem 4.5188725837rem;
   }
 }
 
@@ -209,7 +209,7 @@ body > article > h1,
   padding: 0;
   line-height: 1;
   /* @media (min-width: 75em) {
-      padding: 3.09936rem 1.458rem;
+      padding: 3.099363912rem 1.458rem;
   } */
 }
 @media (min-width: 30.618em) {
@@ -227,7 +227,7 @@ body > article > h1,
 @media (min-width: 61.236em) {
   body > article > h1,
   #home > h1 {
-    padding: 2.12576rem 0;
+    padding: 2.125764rem 0;
   }
 }
 
@@ -272,7 +272,7 @@ body > article h1 a:first-child:after {
 /* @group Content {{{
 ================================================================= */
 #home > section > article {
-  margin: 0 0 3.09936em;
+  margin: 0 0 3.099363912em;
 }
 
 #home > section > article footer:before,
@@ -308,7 +308,10 @@ a {
   color: blue;
 }
 
-a:visited,
+a:visited {
+  color: #639;
+}
+
 .details a,
 .more-link,
 #home > section > article footer a {
@@ -384,25 +387,25 @@ figure {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 2em 0 2em -2.12576rem;
-  width: calc(100% + 4.25153rem);
+  margin: 2em 0 2em -2.125764rem;
+  width: calc(100% + 4.251528rem);
 }
 @media (min-width: 30.618em) {
   figure {
-    margin: 2em 0 2em -2.12576rem;
-    width: calc(100% + 4.25153rem);
+    margin: 2em 0 2em -2.125764rem;
+    width: calc(100% + 4.251528rem);
   }
 }
 @media (min-width: 46.656em) {
   figure {
-    margin: 2em 0 2em -3.09936rem;
-    width: calc(100% + 6.19873rem);
+    margin: 2em 0 2em -3.099363912rem;
+    width: calc(100% + 6.198727824rem);
   }
 }
 @media (min-width: 61.236em) {
   figure {
-    margin: 2em 0 2em -4.51887rem;
-    width: calc(100% + 9.03775rem);
+    margin: 2em 0 2em -4.5188725837rem;
+    width: calc(100% + 9.0377451674rem);
   }
 }
 
@@ -429,17 +432,17 @@ figcaption {
 }
 @media (min-width: 30.618em) {
   figcaption {
-    padding: 0 2.12576rem;
+    padding: 0 2.125764rem;
   }
 }
 @media (min-width: 46.656em) {
   figcaption {
-    padding: 0 3.09936rem;
+    padding: 0 3.099363912rem;
   }
 }
 @media (min-width: 61.236em) {
   figcaption {
-    padding: 0 4.51887rem;
+    padding: 0 4.5188725837rem;
   }
 }
 figcaption small {
@@ -507,7 +510,7 @@ ins {
 h2,
 legend,
 #home article h1 {
-  font-size: 2.12576em;
+  font-size: 2.125764em;
   line-height: 1.2;
   font-weight: bold;
 }
@@ -518,12 +521,12 @@ h3,
 }
 
 [itemprop="UserComment"] {
-  margin: 2.12576em 0;
+  margin: 2.125764em 0;
 }
 
 article aside,
 article > div > section {
-  margin: 4.51887em 0;
+  margin: 4.5188725837em 0;
 }
 
 body > article > div > p:first-child {
