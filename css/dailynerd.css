@@ -3,6 +3,8 @@
 Inspired on the color scheme and the bravoure of dailynerd.nl and lovenonsense.com
 Reduced in quality by my own talent
 */
+/* $c-heading: #037072;
+$c-div: #D42127; */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -64,7 +66,7 @@ p > code, kbd {
 
 abbr {
   text-decoration: none;
-  border-bottom: 1px dotted #d42127;
+  border-bottom: 1px dotted rgba(212, 33, 39, 0.5);
 }
 
 abbr[title] {
@@ -148,7 +150,7 @@ body > article > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
   font-size: 3.099363912em;
-  background: #037072;
+  background: #663399;
   color: white;
   -webkit-flex: 6.588516227 1 6.588516227px;
   flex: 6.588516227 1 6.588516227px;
@@ -192,7 +194,7 @@ body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: #d42127;
+  background: rgba(212, 33, 39, 0.5);
   -webkit-flex: 1.458 1 1.458px;
   flex: 1.458 1 1.458px;
   -webkit-order: 2;
@@ -278,7 +280,7 @@ body > article h1 a:first-child:after {
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid #d42127;
+  border-bottom: 1px solid rgba(212, 33, 39, 0.5);
   width: 100%;
   max-width: 23em;
   display: block;
@@ -494,7 +496,7 @@ ins {
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid #d42127;
+  border-bottom: 1px solid rgba(212, 33, 39, 0.5);
 }
 
 #home article h1 a {
@@ -504,7 +506,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #d42127, 0.3em 1px 0 #d42127;
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 rgba(212, 33, 39, 0.5), 0.3em 1px 0 rgba(212, 33, 39, 0.5);
 }
 
 h2,
@@ -558,7 +560,7 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid #d42127;
+  border: 1px solid rgba(212, 33, 39, 0.5);
   padding: 0.3645em;
 }
 
