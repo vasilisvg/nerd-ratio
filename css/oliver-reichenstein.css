@@ -64,7 +64,7 @@ p > code, kbd {
 
 abbr {
   text-decoration: none;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted #663399;
 }
 
 abbr[title] {
@@ -192,7 +192,7 @@ body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: black;
+  background: #663399;
   -webkit-flex: 1.5 1 1.5px;
   flex: 1.5 1 1.5px;
   -webkit-order: 1;
@@ -278,7 +278,7 @@ body > article h1 a:first-child:after {
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #663399;
   width: 100%;
   max-width: 23em;
   display: block;
@@ -494,7 +494,7 @@ ins {
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #663399;
 }
 
 #home article h1 a {
@@ -504,7 +504,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 black, 0.3em 1px 0 black;
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #663399, 0.3em 1px 0 #663399;
 }
 
 h2,
@@ -558,7 +558,7 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid black;
+  border: 1px solid #663399;
   padding: 0.375em;
 }
 

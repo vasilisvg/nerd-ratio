@@ -64,7 +64,7 @@ p > code, kbd {
 
 abbr {
   text-decoration: none;
-  border-bottom: 1px dotted #ff7f2f;
+  border-bottom: 1px dotted rgba(102, 51, 153, 0.5);
 }
 
 abbr[title] {
@@ -148,7 +148,7 @@ body > article > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
   font-size: 4.235801032em;
-  background: #ff0066;
+  background: #663399;
   color: white;
   -webkit-flex: 4.235801032 1 4.235801032px;
   flex: 4.235801032 1 4.235801032px;
@@ -200,7 +200,7 @@ body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: #ff7f2f;
+  background: rgba(102, 51, 153, 0.5);
   -webkit-flex: 1.618 1 1.618px;
   flex: 1.618 1 1.618px;
   -webkit-order: 3;
@@ -286,7 +286,7 @@ body > article h1 a:first-child:after {
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid #ff7f2f;
+  border-bottom: 1px solid rgba(102, 51, 153, 0.5);
   width: 100%;
   max-width: 23em;
   display: block;
@@ -302,7 +302,7 @@ body > article h1 a:first-child:after {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #home > section > article footer:before {
-    border-bottom: 1.5px solid #ff7f2f;
+    border-bottom: 1.5px solid rgba(102, 51, 153, 0.5);
     -webkit-transform: scale(1, 0.5);
     -webkit-transform-origin: 0 0;
     transform: scale(1, 0.5);
@@ -503,11 +503,11 @@ ins {
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid #ff7f2f;
+  border-bottom: 1px solid rgba(102, 51, 153, 0.5);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #home article h1 {
-    border-bottom: 1.5px solid #ff7f2f;
+    border-bottom: 1.5px solid rgba(102, 51, 153, 0.5);
   }
 }
 
@@ -518,7 +518,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1.5px 0 #ff7f2f, 0.3em 1.5px 0 #ff7f2f;
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1.5px 0 rgba(102, 51, 153, 0.5), 0.3em 1.5px 0 rgba(102, 51, 153, 0.5);
 }
 
 h2,
@@ -585,7 +585,7 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid #ff7f2f;
+  border: 1px solid rgba(102, 51, 153, 0.5);
   padding: 0.4045em;
 }
 
