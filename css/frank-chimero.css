@@ -64,7 +64,7 @@ p > code, kbd {
 
 abbr {
   text-decoration: none;
-  border-bottom: 1px dotted rgba(102, 51, 153, 0.5);
+  border-bottom: 1px dotted #00e0b7;
 }
 
 abbr[title] {
@@ -148,7 +148,7 @@ body > article > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
   font-size: 3.375em;
-  background: #663399;
+  background: #0cdee9;
   color: white;
   -webkit-flex: 5.0625 1 5.0625px;
   flex: 5.0625 1 5.0625px;
@@ -210,7 +210,7 @@ body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: rgba(102, 51, 153, 0.5);
+  background: #00e0b7;
   -webkit-flex: 1.5 1 1.5px;
   flex: 1.5 1 1.5px;
   -webkit-order: 2;
@@ -305,7 +305,7 @@ body > article h1 a:first-child:after {
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid rgba(102, 51, 153, 0.5);
+  border-bottom: 1px solid #00e0b7;
   width: 100%;
   max-width: 23em;
   display: block;
@@ -521,7 +521,7 @@ ins {
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid rgba(102, 51, 153, 0.5);
+  border-bottom: 1px solid #00e0b7;
 }
 
 #home article h1 a {
@@ -531,7 +531,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 rgba(102, 51, 153, 0.5), 0.3em 1px 0 rgba(102, 51, 153, 0.5);
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #00e0b7, 0.3em 1px 0 #00e0b7;
 }
 
 h2,
@@ -585,7 +585,7 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid rgba(102, 51, 153, 0.5);
+  border: 1px solid #00e0b7;
   padding: 0.375em;
 }
 
