@@ -26,14 +26,14 @@ body {
     font-size: .8em;
   }
 }
-@media (min-width: 106.788em) {
-  body {
-    font-size: 1.6em;
-  }
-}
 @media (min-width: 80.9em) {
   body {
     font-size: 1.3em;
+  }
+}
+@media (min-width: 106.788em) {
+  body {
+    font-size: 1.6em;
   }
 }
 
