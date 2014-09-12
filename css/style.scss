@@ -18,6 +18,9 @@ body {
     @media (max-width: #{$unit*21}em) {
         font-size: .8em;
     }
+    @media (min-width: #{$unit*66}em) {
+        font-size: 1.2em;
+    }
 }
 
 h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
