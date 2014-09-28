@@ -31,11 +31,6 @@ body {
     font-size: 1.3em;
   }
 }
-@media (min-width: 114.312em) {
-  body {
-    font-size: 1.6em;
-  }
-}
 
 h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
   font-family: "Charlie Bold", helvetica, arial, sans-serif;
@@ -74,7 +69,7 @@ p > code, kbd {
 
 abbr {
   text-decoration: none;
-  border-bottom: 1px dotted #f63d46;
+  border-bottom: 1px dotted #F63D46;
 }
 
 abbr[title] {
@@ -158,7 +153,7 @@ body > article > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
   font-size: 5.195695168em;
-  background: #c0d3d2;
+  background: #C0D3D2;
   color: white;
   -webkit-flex: 26.9952482788 1 26.9952482788px;
   flex: 26.9952482788 1 26.9952482788px;
@@ -179,7 +174,7 @@ body > article > div:nth-of-type(1),
 #home > section,
 body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
-  background: white;
+  background: #fff;
   color: black;
   -webkit-flex: 80.9809936726 1 80.9809936726px;
   flex: 80.9809936726 1 80.9809936726px;
@@ -210,7 +205,7 @@ body > article > div:last-of-type,
 body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
-  background: #f63d46;
+  background: #F63D46;
   -webkit-flex: 1.732 1 1.732px;
   flex: 1.732 1 1.732px;
   -webkit-order: 3;
@@ -296,7 +291,7 @@ body > article h1 a:first-child:after {
 #home > section > article footer:before,
 .e-content > footer:before {
   content: ' ';
-  border-bottom: 1px solid #f63d46;
+  border-bottom: 1px solid #F63D46;
   width: 100%;
   max-width: 23em;
   display: block;
@@ -344,7 +339,7 @@ a:focus,
 #home > section > article footer a:focus,
 .details a:hover,
 .details a:focus {
-  color: white;
+  color: #fff;
   background: black;
 }
 
@@ -512,7 +507,7 @@ ins {
 
 #home article h1 {
   margin: 0;
-  border-bottom: 1px solid #f63d46;
+  border-bottom: 1px solid #F63D46;
 }
 
 #home article h1 a {
@@ -522,7 +517,7 @@ ins {
 
 #home article h1 a:hover,
 #home article h1 a:focus {
-  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #f63d46, 0.3em 1px 0 #f63d46;
+  box-shadow: -0.3em 0 0 black, 0.3em 0 0 black, -0.3em 1px 0 #F63D46, 0.3em 1px 0 #F63D46;
 }
 
 h2,
@@ -589,7 +584,7 @@ body > article > div > p:first-child {
 }
 
 input, textarea {
-  border: 1px solid #f63d46;
+  border: 1px solid #F63D46;
   padding: 0.433em;
 }
 
