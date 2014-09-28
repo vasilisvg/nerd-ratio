@@ -26,11 +26,6 @@ body {
     font-size: .8em;
   }
 }
-@media (min-width: 72.9em) {
-  body {
-    font-size: 1.3em;
-  }
-}
 
 h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
   font-family: "Charlie Bold", helvetica, arial, sans-serif;
