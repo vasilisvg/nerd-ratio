@@ -225,6 +225,17 @@ body > article > h1,
          padding: #{power($unit,3)}rem #{power($unit,1)}rem;
      } */
 }
+.e-content > h1 {
+    @media (min-width: #{$unit*21}em) {
+         padding: 0 0 #{$unit}rem;
+     }
+     @media (min-width: #{$unit*32}em) {
+         padding: 0 0 #{$unit}rem;
+     }
+     @media (min-width: #{$unit*42}em) {
+         padding: 0 0 #{power($unit,2)}rem;
+     }
+}
 
 body > article h1 span,
 #home > h1 span {
