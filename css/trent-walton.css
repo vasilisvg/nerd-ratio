@@ -284,10 +284,6 @@ body > article h1 a:first-child:focus {
   box-shadow: -0.3em 0 0 black;
 }
 
-body > article h1 a:first-child:after {
-  content: ': ';
-}
-
 /* @end Header }}} */
 /* @group Content {{{
 ================================================================= */
