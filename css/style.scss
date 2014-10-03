@@ -101,16 +101,16 @@ body > .prevnext {
      overflow: hidden;
      padding: 0 11.1111%;
      @media (min-width: #{$unit*21}em) {
-         padding: #{$unit}rem 11.1111%;
+         padding: 11.1111vh 11.1111%;
      }
      @media (min-width: #{$unit*32}em) {
-         padding: #{$unit}rem 11.1111%;
+         padding: 11.1111vh 11.1111%;
      }
      @media (min-width: #{$unit*42}em) {
-         padding: #{power($unit,2)}rem 11.1111%;
+         padding: 11.1111vh 11.1111%;
      }
      /* @media (min-width: 75em) {
-         padding: #{power($unit,3)}rem 11.1111%;
+         padding: 11.1111vh 11.1111%;
      } */
  }
  body > footer > * {
