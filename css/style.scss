@@ -149,10 +149,8 @@ body > .prevnext {
  .e-content > h1 {
     background: inherit;
     color: inherit;
-    @if variable-exists(ss-h2) {
-        @media (max-width: #{$unit*21}em) {
-            padding: #{$unit}em;
-        }
+    @media (max-width: #{$unit*21}em) {
+        padding: #{$unit}em 0;
     }
  }
 

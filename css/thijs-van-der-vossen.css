@@ -174,7 +174,7 @@ body > .prevnext > div:first-of-type {
 }
 @media (max-width: 36.372em) {
   .e-content > h1 {
-    padding: 1.732em;
+    padding: 1.732em 0;
   }
 }
 

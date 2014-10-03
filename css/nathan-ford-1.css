@@ -163,6 +163,11 @@ body > .prevnext > div:first-of-type {
   background: inherit;
   color: inherit;
 }
+@media (max-width: 29.694em) {
+  .e-content > h1 {
+    padding: 1.414em 0;
+  }
+}
 
 body > article > div:nth-of-type(1),
 #home > section,
