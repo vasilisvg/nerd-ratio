@@ -670,6 +670,7 @@ td.num {
 th, td {
   border-bottom: 1px solid #0555C8;
   vertical-align: top;
+  padding: 0.1458em;
 }
 
 /* @end Content }}} */

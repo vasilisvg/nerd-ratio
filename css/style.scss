@@ -635,6 +635,7 @@ td.num {
 th, td {
     border-bottom: 1px solid $c-div;
     vertical-align: top;
+    padding: #{$unit*.1}em;
 }
 
 
