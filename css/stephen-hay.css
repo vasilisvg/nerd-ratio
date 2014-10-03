@@ -155,22 +155,7 @@ body > .prevnext > div:nth-of-type(2) {
 }
 
 #home > section {
-  padding: 0.707rem 1.414rem 1.414rem;
-}
-@media (min-width: 29.694em) {
-  #home > section {
-    padding: 1.414rem 1.999396rem;
-  }
-}
-@media (min-width: 45.248em) {
-  #home > section {
-    padding: 1.414rem 2.827145944rem;
-  }
-}
-@media (min-width: 59.388em) {
-  #home > section {
-    padding: 1.999396rem 3.9975843648rem;
-  }
+  padding: 11.1111vh 11.1111%;
 }
 
 body > article > div:last-of-type,

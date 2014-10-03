@@ -161,16 +161,7 @@ body > .prevnext {
      order: $o-c;
  }
  #home > section {
-     padding: #{$unit/2}rem #{$unit}rem #{$unit}rem;
-     @media (min-width: #{$unit*21}em) {
-         padding: #{$unit}rem #{power($unit,2)}rem;
-     }
-     @media (min-width: #{$unit*32}em) {
-         padding: #{$unit}rem #{power($unit,3)}rem;
-     }
-     @media (min-width: #{$unit*42}em) {
-         padding: #{power($unit,2)}rem #{power($unit,4)}rem;
-     }
+     padding: 11.1111vh 11.1111%;
  }
  body > article > div:last-of-type,
  body > footer > div:last-of-type,
