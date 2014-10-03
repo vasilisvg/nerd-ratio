@@ -211,6 +211,7 @@ body > .prevnext > div:last-of-type,
 /* @group Header {{{
 ================================================================= */
 body > article > h1,
+.e-content > h1,
 #home > h1 {
   margin: 0;
   padding: 0;
@@ -221,18 +222,21 @@ body > article > h1,
 }
 @media (min-width: 29.694em) {
   body > article > h1,
+  .e-content > h1,
   #home > h1 {
     padding: 1.414rem 0;
   }
 }
 @media (min-width: 45.248em) {
   body > article > h1,
+  .e-content > h1,
   #home > h1 {
     padding: 1.414rem 0;
   }
 }
 @media (min-width: 59.388em) {
   body > article > h1,
+  .e-content > h1,
   #home > h1 {
     padding: 1.999396rem 0;
   }
