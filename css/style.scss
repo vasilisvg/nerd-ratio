@@ -253,7 +253,7 @@ body > article > h1 a:last-child:focus,
 }
 body > article h1 a:first-child:hover,
 body > article h1 a:first-child:focus {
-    box-shadow: -.3em 0 0 $c-color;
+    //box-shadow: -.3em 0 0 $c-color;
 }
 body > article h1 a:first-child:after {
     //content: ': ';
