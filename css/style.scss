@@ -621,7 +621,7 @@ textarea {
 }
 
 table {
-    margin: 1em 0;
+    margin: #{$unit}em 0;
     caption-side: bottom;
 }
 caption,
