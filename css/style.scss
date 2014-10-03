@@ -623,7 +623,6 @@ textarea {
 table {
     margin: #{$unit}em 0;
     caption-side: bottom;
-    min-width: #{23*$unit}em;
 }
 caption,
 th {
