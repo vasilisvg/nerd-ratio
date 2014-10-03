@@ -269,7 +269,7 @@ body > article h1 span,
   padding: 11.1111% 11.1111vh;
   -webkit-transform: rotate(90deg) translate(calc(-1.5rem - 1em), 0);
   transform: rotate(90deg) translate(-1.5em, 0);
-  transform: translate(calc(-1.5rem - 1em), 0) rotate(90deg);
+  transform: rotate(90deg) translate(calc(-1.5rem - 1em), 0);
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
