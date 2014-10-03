@@ -99,18 +99,18 @@ body > .prevnext {
  body > .prevnext > * {
      margin: 0;
      overflow: hidden;
-     padding: 0 #{$unit}rem;
+     padding: 0 11.1111%;
      @media (min-width: #{$unit*21}em) {
-         padding: #{$unit}rem #{power($unit,2)}rem;
+         padding: #{$unit}rem 11.1111%;
      }
      @media (min-width: #{$unit*32}em) {
-         padding: #{$unit}rem #{power($unit,3)}rem;
+         padding: #{$unit}rem 11.1111%;
      }
      @media (min-width: #{$unit*42}em) {
-         padding: #{power($unit,2)}rem #{power($unit,4)}rem;
+         padding: #{power($unit,2)}rem 11.1111%;
      }
      /* @media (min-width: 75em) {
-         padding: #{power($unit,3)}rem #{power($unit,5)}rem;
+         padding: #{power($unit,3)}rem 11.1111%;
      } */
  }
  body > footer > * {

@@ -109,9 +109,9 @@ body > footer > *,
 body > .prevnext > * {
   margin: 0;
   overflow: hidden;
-  padding: 0 1.414rem;
+  padding: 0 11.1111%;
   /* @media (min-width: 75em) {
-      padding: 2.827145944rem 5.6525842918rem;
+      padding: 2.827145944rem 11.1111%;
   } */
 }
 @media (min-width: 29.694em) {
@@ -119,7 +119,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.414rem 1.999396rem;
+    padding: 1.414rem 11.1111%;
   }
 }
 @media (min-width: 45.248em) {
@@ -127,7 +127,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.414rem 2.827145944rem;
+    padding: 1.414rem 11.1111%;
   }
 }
 @media (min-width: 59.388em) {
@@ -135,7 +135,7 @@ body > .prevnext > * {
   body > footer > *,
   #home > *,
   body > .prevnext > * {
-    padding: 1.999396rem 3.9975843648rem;
+    padding: 1.999396rem 11.1111%;
   }
 }
 
