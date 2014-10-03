@@ -655,6 +655,7 @@ textarea {
 table {
   margin: 1.5em 0;
   caption-side: bottom;
+  min-width: 34.5em;
 }
 
 caption,
@@ -668,6 +669,7 @@ td.num {
 
 th, td {
   border-bottom: 1px solid #1A171B;
+  vertical-align: top;
 }
 
 /* @end Content }}} */
