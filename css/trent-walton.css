@@ -553,6 +553,10 @@ legend,
   #home article h1 {
     font-size: 1.732em;
   }
+
+  .e-content > h1 {
+    padding: 1.732rem 0;
+  }
 }
 h3,
 [itemprop="UserComment"] ul {
