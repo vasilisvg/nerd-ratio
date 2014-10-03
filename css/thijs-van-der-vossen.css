@@ -201,32 +201,11 @@ body > article > h1,
 .e-content > h1,
 #home > h1 {
   margin: 0;
-  padding: 0;
+  padding: 11vh 0px;
   line-height: 1;
   /* @media (min-width: 75em) {
       padding: 5.195695168rem 1.732rem;
   } */
-}
-@media (min-width: 36.372em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 1.732rem 0;
-  }
-}
-@media (min-width: 55.424em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 1.732rem 0;
-  }
-}
-@media (min-width: 72.744em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 2.999824rem 0;
-  }
 }
 
 .e-content > h1 {

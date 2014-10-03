@@ -192,32 +192,11 @@ body > article > h1,
 .e-content > h1,
 #home > h1 {
   margin: 0;
-  padding: 0;
+  padding: 11vh 0px;
   line-height: 1;
   /* @media (min-width: 75em) {
       padding: 2.827145944rem 1.414rem;
   } */
-}
-@media (min-width: 29.694em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 1.414rem 0;
-  }
-}
-@media (min-width: 45.248em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 1.414rem 0;
-  }
-}
-@media (min-width: 59.388em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 1.999396rem 0;
-  }
 }
 
 .e-content > h1 {

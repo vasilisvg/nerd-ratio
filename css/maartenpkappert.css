@@ -192,32 +192,11 @@ body > article > h1,
 .e-content > h1,
 #home > h1 {
   margin: 0;
-  padding: 0;
+  padding: 11vh 0px;
   line-height: 1;
   /* @media (min-width: 75em) {
       padding: 3.375rem 1.5rem;
   } */
-}
-@media (min-width: 31.5em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 1.5rem 0;
-  }
-}
-@media (min-width: 48em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 1.5rem 0;
-  }
-}
-@media (min-width: 63em) {
-  body > article > h1,
-  .e-content > h1,
-  #home > h1 {
-    padding: 2.25rem 0;
-  }
 }
 
 .e-content > h1 {
