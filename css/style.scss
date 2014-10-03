@@ -99,19 +99,7 @@ body > .prevnext {
  body > .prevnext > * {
      margin: 0;
      overflow: hidden;
-     padding: 0 11.1111%;
-     @media (min-width: #{$unit*21}em) {
-         padding: 11.1111vh 11.1111%;
-     }
-     @media (min-width: #{$unit*32}em) {
-         padding: 11.1111vh 11.1111%;
-     }
-     @media (min-width: #{$unit*42}em) {
-         padding: 11.1111vh 11.1111%;
-     }
-     /* @media (min-width: 75em) {
-         padding: 11.1111vh 11.1111%;
-     } */
+     padding: 11.1111vh 11.1111%;
  }
  body > footer > * {
      padding-top: #{power($unit,4)}em;

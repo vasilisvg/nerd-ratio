@@ -109,34 +109,7 @@ body > footer > *,
 body > .prevnext > * {
   margin: 0;
   overflow: hidden;
-  padding: 0 11.1111%;
-  /* @media (min-width: 75em) {
-      padding: 11.1111vh 11.1111%;
-  } */
-}
-@media (min-width: 36.372em) {
-  body > article > *,
-  body > footer > *,
-  #home > *,
-  body > .prevnext > * {
-    padding: 11.1111vh 11.1111%;
-  }
-}
-@media (min-width: 55.424em) {
-  body > article > *,
-  body > footer > *,
-  #home > *,
-  body > .prevnext > * {
-    padding: 11.1111vh 11.1111%;
-  }
-}
-@media (min-width: 72.744em) {
-  body > article > *,
-  body > footer > *,
-  #home > *,
-  body > .prevnext > * {
-    padding: 11.1111vh 11.1111%;
-  }
+  padding: 11.1111vh 11.1111%;
 }
 
 body > footer > * {
