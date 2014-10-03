@@ -200,7 +200,6 @@ body > .prevnext {
 body > article > h1,
 .e-content > h1,
 #home > h1 {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -231,7 +230,7 @@ body > article h1 span,
 #home > h1 span {
     display: block;
     white-space: nowrap;
-    padding: #{$unit/2}rem;
+    padding: 11.1111% 11.1111vh;
     -webkit-transform: rotate(90deg) translate(calc(-#{$unit}rem - 1em), 0);
     transform: rotate(90deg) translate(-1.5em, 0);
     transform: rotate(90deg) translate(calc(-#{$unit}rem - 1em), 0);
