@@ -146,6 +146,7 @@ body > footer > * {
 
 body > article > h1,
 #home > h1,
+.e-content > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
   font-size: 3.375em;
@@ -160,6 +161,7 @@ body > .prevnext > div:first-of-type {
 @media (max-width: 43.5em) {
   body > article > h1,
   #home > h1,
+  .e-content > h1,
   body > footer > div:first-of-type,
   body > .prevnext > div:first-of-type {
     -webkit-flex: 5.0625 1 5.0625px;
