@@ -242,6 +242,22 @@ body > article > h1,
   }
 }
 
+@media (min-width: 31.5em) {
+  .e-content > h1 {
+    padding: 0 0 1.5rem;
+  }
+}
+@media (min-width: 48em) {
+  .e-content > h1 {
+    padding: 0 0 1.5rem;
+  }
+}
+@media (min-width: 63em) {
+  .e-content > h1 {
+    padding: 0 0 2.25rem;
+  }
+}
+
 body > article h1 span,
 #home > h1 span {
   display: block;

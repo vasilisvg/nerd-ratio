@@ -251,6 +251,22 @@ body > article > h1,
   }
 }
 
+@media (min-width: 33.978em) {
+  .e-content > h1 {
+    padding: 0 0 1.618rem;
+  }
+}
+@media (min-width: 51.776em) {
+  .e-content > h1 {
+    padding: 0 0 1.618rem;
+  }
+}
+@media (min-width: 67.956em) {
+  .e-content > h1 {
+    padding: 0 0 2.617924rem;
+  }
+}
+
 body > article h1 span,
 #home > h1 span {
   display: block;
