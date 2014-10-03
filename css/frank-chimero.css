@@ -27,7 +27,7 @@ body {
   }
 }
 
-h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
+h1, h2, h3, h4, [itemprop="UserComment"] ul, legend, th {
   font-family: "Charlie Bold", helvetica, arial, sans-serif;
   font-weight: bold;
 }
@@ -39,7 +39,7 @@ em strong {
   font-style: normal;
 }
 
-em, i, footer ul:not(.details) li, q {
+em, i, footer ul:not(.details) li, q, caption {
   font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
   font-style: italic;
 }
@@ -677,6 +677,24 @@ textarea {
   margin: 0;
   padding: 0;
   list-style-position: inside;
+}
+
+table {
+  margin: 1em 0;
+  caption-side: bottom;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+td.num {
+  text-align: right;
+}
+
+th, td {
+  border-bottom: 1px solid #00e0b7;
 }
 
 /* @end Content }}} */
