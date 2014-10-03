@@ -271,6 +271,11 @@ body > article > h1,
     padding: 0 0 2.999824rem;
   }
 }
+@media (max-width: 36.372em) {
+  .e-content > h1 {
+    padding: 1.732em 0;
+  }
+}
 
 body > article h1 span,
 #home > h1 span {
