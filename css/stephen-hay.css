@@ -659,8 +659,10 @@ table {
 }
 
 caption,
-th {
+th,
+td {
   text-align: left;
+  padding: 0.4242em;
 }
 
 td.num {
@@ -670,7 +672,6 @@ td.num {
 th, td {
   border-bottom: 1px solid #0B4873;
   vertical-align: top;
-  padding: 0.4242em;
 }
 
 /* @end Content }}} */

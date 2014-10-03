@@ -626,8 +626,10 @@ table {
     caption-side: bottom;
 }
 caption,
-th {
+th,
+td {
     text-align: left;
+    padding: #{$unit*.3}em;
 }
 td.num {
     text-align: right;
@@ -635,7 +637,6 @@ td.num {
 th, td {
     border-bottom: 1px solid $c-div;
     vertical-align: top;
-    padding: #{$unit*.3}em;
 }
 
 
