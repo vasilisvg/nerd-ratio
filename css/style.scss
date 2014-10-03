@@ -26,12 +26,13 @@ body {
     }
 }
 
-h1, h2, h3, h4, [itemprop="UserComment"] ul, legend, th {
+h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
     font-family: "Charlie Bold", helvetica, arial, sans-serif;
     font-weight: bold;
 }
 b,
-em strong {
+em strong,
+th {
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
     font-weight: bold;
     font-style: normal;
