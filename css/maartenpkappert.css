@@ -247,10 +247,8 @@ body > article > h1,
   }
 }
 
-@media (min-width: 31.5em) {
-  .e-content > h1 {
-    padding: 0 0 1.5rem;
-  }
+.e-content > h1 {
+  padding: 0 0 1.5rem;
 }
 @media (min-width: 48em) {
   .e-content > h1 {
@@ -260,11 +258,6 @@ body > article > h1,
 @media (min-width: 63em) {
   .e-content > h1 {
     padding: 0 0 2.25rem;
-  }
-}
-@media (max-width: 31.5em) {
-  .e-content > h1 {
-    padding: 1.5em 0;
   }
 }
 

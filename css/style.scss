@@ -229,18 +229,13 @@ body > article > h1,
      } */
 }
 .e-content > h1 {
-    @media (min-width: #{$unit*21}em) {
-         padding: 0 0 #{$unit}rem;
-     }
+     padding: 0 0 #{$unit}rem;
      @media (min-width: #{$unit*32}em) {
          padding: 0 0 #{$unit}rem;
      }
      @media (min-width: #{$unit*42}em) {
          padding: 0 0 #{power($unit,2)}rem;
      }
-     @media (max-width: #{$unit*21}em) {
-        padding: #{$unit}em 0;
-    }
 }
 
 body > article h1 span,
