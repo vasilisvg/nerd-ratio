@@ -191,6 +191,7 @@ body > .prevnext > div:last-of-type,
 body > article > h1,
 .e-content > h1,
 #home > h1 {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   line-height: 1;
