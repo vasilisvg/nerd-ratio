@@ -510,7 +510,7 @@ legend,
         font-size: #{power($unit,$ss-h2)}em;
     }
     .e-content > h1 {
-        padding: #{$unit}rem 0;
+        padding: #{$unit*2}rem 0;
     }
 }
 }
