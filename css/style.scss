@@ -149,6 +149,11 @@ body > .prevnext {
  .e-content > h1 {
     background: inherit;
     color: inherit;
+    @if variable-exists(ss-h2) {
+        @media (max-width: #{$unit*21}em) {
+            padding: #{$unit}em;
+        }
+    }
  }
 
 
@@ -508,9 +513,6 @@ legend,
     legend,
     #home article h1 {
         font-size: #{power($unit,$ss-h2)}em;
-    }
-    .e-content > h1 {
-        padding: #{$unit*2}rem 0;
     }
 }
 }
