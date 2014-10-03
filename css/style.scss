@@ -229,7 +229,7 @@ body > article > h1,
      } */
 }
 .e-content > h1 {
-     padding: #{$unit/2}rem 0 #{$unit}rem;
+     padding: 0 0 #{$unit}rem;
      @media (min-width: #{$unit*32}em) {
          padding: 0 0 #{$unit}rem;
      }
