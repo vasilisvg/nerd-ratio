@@ -146,6 +146,11 @@ body > .prevnext {
      padding: 0;
  }
 
+ .e-content > h1 {
+    background: inherit;
+    color: inherit;
+ }
+
 
  body > article > div:nth-of-type(1),
  #home > section,

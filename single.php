@@ -17,8 +17,7 @@ else {
 <h1><span><a href="/" accesskey="h">Nerd</a></span></h1>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="e-content">
-    <h1><a href="<?php the_permalink() ?>" itemprop="name" class="p-name u-url">
-            <?php the_title(); ?></a></h1>
+    	<h1><?php the_title(); ?></h1>
 <?php the_content();  ?>
 	<footer>
 		<ul>
