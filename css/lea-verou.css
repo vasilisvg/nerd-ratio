@@ -257,7 +257,7 @@ body > article > h1,
 }
 
 .e-content > h1 {
-  padding: 1.618rem 0;
+  padding: 0.809rem 0 1.618rem;
 }
 @media (min-width: 51.776em) {
   .e-content > h1 {
