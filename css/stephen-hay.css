@@ -51,7 +51,7 @@ strong {
   font-weight: bold;
 }
 
-code, pre, kbd {
+code, pre, kbd, td.num {
   font-family: "Fedra Mono Screen Regular";
   font-weight: normal !important;
   font-style: normal !important;
