@@ -261,6 +261,10 @@ body > article h1 a:first-child:after {
 
 #home > section > article {
     margin: 0 0 #{power($unit,3)}em;
+    margin: 0 0 11.1111vh;
+    @media (max-aspect-ratio: 1/1) {
+        margin: 0 0 5.5555vh;
+     }
 }
 #home > section > article footer:before,
 .e-content > footer:before {

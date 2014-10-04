@@ -280,6 +280,12 @@ body > article > h1 a:last-child:focus,
 ================================================================= */
 #home > section > article {
   margin: 0 0 3.375em;
+  margin: 0 0 11.1111vh;
+}
+@media (max-aspect-ratio: 1 / 1) {
+  #home > section > article {
+    margin: 0 0 5.5555vh;
+  }
 }
 
 #home > section > article footer:before,
