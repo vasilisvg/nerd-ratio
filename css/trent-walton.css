@@ -301,7 +301,7 @@ body > article > h1 a:last-child:focus,
     transform-origin: 0 0;
   }
 }
-div > p:first-child {
+div > h1 + p:first-child {
   margin: .5em 0 1em;
 }
 
