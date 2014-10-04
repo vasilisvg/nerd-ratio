@@ -100,8 +100,10 @@ body > .prevnext {
  body > .prevnext > * {
      margin: 0;
      overflow: hidden;
+     padding: 11.1111%;
      padding: 11.1111vh 11.1111%;
      @media (max-aspect-ratio: 1/1) {
+        padding: 5.5555% 11.1111%;
         padding: 5.5555vh 11.1111%;
      }
  }
@@ -165,8 +167,10 @@ body > .prevnext {
      order: $o-c;
  }
  #home > section {
+    padding: 11.1111% 11.1111%;
      padding: 11.1111vh 11.1111%;
      @media (max-aspect-ratio: 1/1) {
+        padding: 5.5555% 11.1111%;
         padding: 5.5555vh 11.1111%;
      }
  }
@@ -199,9 +203,11 @@ body > article > h1,
 .e-content > h1,
 #home > h1 {
     margin: 0;
+    padding: 11.1111% 0;
     padding: 11.1111vh 0;
     line-height: 1;
     @media (max-aspect-ratio: 1/1) {
+        padding: 5.5555% 0;
         padding: 5.5555vh 0;
      }
      /* @media (min-width: 75em) {
@@ -263,6 +269,7 @@ body > article h1 a:first-child:after {
     margin: 0 0 #{power($unit,3)}em;
     margin: 0 0 11.1111vh;
     @media (max-aspect-ratio: 1/1) {
+        margin: 0 0 5.5555%;
         margin: 0 0 5.5555vh;
      }
 }
