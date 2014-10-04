@@ -302,10 +302,6 @@ body > article > h1 a:last-child:focus,
     transform-origin: 0 0;
   }
 }
-div > h1 + p {
-  margin: .5em 0 1em;
-}
-
 a {
   color: blue;
 }
