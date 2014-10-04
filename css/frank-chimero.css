@@ -111,6 +111,14 @@ body > .prevnext > * {
   overflow: hidden;
   padding: 11.1111vh 11.1111%;
 }
+@media (min-aspect-ratio: 1 / 1) {
+  body > article > *,
+  body > footer > *,
+  #home > *,
+  body > .prevnext > * {
+    padding: 5.5555vh 11.1111%;
+  }
+}
 
 body > footer > * {
   padding-top: 5.0625em;
@@ -175,6 +183,11 @@ body > .prevnext > div:nth-of-type(2) {
 
 #home > section {
   padding: 11.1111vh 11.1111%;
+}
+@media (min-aspect-ratio: 1 / 1) {
+  #home > section {
+    padding: 5.5555vh 11.1111%;
+  }
 }
 
 body > article > div:last-of-type,
