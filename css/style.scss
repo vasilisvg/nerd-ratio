@@ -100,7 +100,7 @@ body > .prevnext {
      margin: 0;
      overflow: hidden;
      padding: 11.1111vh 11.1111%;
-     @media (min-aspect-ratio: 1/1) {
+     @media (max-aspect-ratio: 1/1) {
         padding: 5.5555vh 11.1111%;
      }
  }
@@ -165,7 +165,7 @@ body > .prevnext {
  }
  #home > section {
      padding: 11.1111vh 11.1111%;
-     @media (min-aspect-ratio: 1/1) {
+     @media (max-aspect-ratio: 1/1) {
         padding: 5.5555vh 11.1111%;
      }
  }
