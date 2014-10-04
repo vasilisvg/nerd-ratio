@@ -54,6 +54,7 @@ strong {
 code, pre, kbd {
   font-family: "Fedra Mono Screen Regular";
   font-weight: normal !important;
+  font-style: normal !important;
 }
 
 p > code, kbd {
