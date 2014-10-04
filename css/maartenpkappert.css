@@ -190,11 +190,18 @@ body > article > h1,
 .e-content > h1,
 #home > h1 {
   margin: 0;
-  padding: 11vh 0px;
+  padding: 11.1111vh 0;
   line-height: 1;
   /* @media (min-width: 75em) {
       padding: 3.375rem 1.5rem;
   } */
+}
+@media (max-aspect-ratio: 1 / 1) {
+  body > article > h1,
+  .e-content > h1,
+  #home > h1 {
+    padding: 5.5555vh 0;
+  }
 }
 
 .e-content > h1 {
