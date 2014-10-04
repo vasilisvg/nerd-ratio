@@ -521,29 +521,29 @@ article > div > section {
   margin: 5.0625em 0;
 }
 
-body > article > div > p:first-child {
+body > article > div > h1 + p {
   font-size: 1.5em;
   margin: .5em 0 1em;
 }
 @media (max-width: 79.5em) {
-  body > article > div > p:first-child {
+  body > article > div > h1 + p {
     line-height: 1.4;
     text-align: left;
   }
 }
 @media (max-width: 36em) {
-  body > article > div > p:first-child {
+  body > article > div > h1 + p {
     font-size: 1em;
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
     font-weight: bold;
     line-height: inherit;
   }
-  body > article > div > p:first-child em, body > article > div > p:first-child i {
+  body > article > div > h1 + p em, body > article > div > h1 + p i {
     font-family: "Fedra Sans Screen Bold Italic", helvetica, arial, sans-serif;
     font-style: italic;
     font-weight: bold;
   }
-  body > article > div > p:first-child b {
+  body > article > div > h1 + p b {
     font-family: "Fedra Sans Screen", helvetica, arial, sans-serif;
     font-weight: normal;
   }

@@ -525,7 +525,7 @@ article aside,
 article > div > section {
     margin: #{power($unit,4)}em 0;
 }
-body > article > div > p:first-child {
+body > article > div > h1 + p {
     font-size: #{$unit}em;
     margin: .5em 0 1em;
     @media (max-width: #{$unit*53}em) {
