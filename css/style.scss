@@ -432,7 +432,7 @@ figcaption {
         padding: 0 .1em;
     }
 }
-p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]),img {
+p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]),img, caption {
     max-width: #{23*$unit}em;
 }
 blockquote {
