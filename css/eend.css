@@ -40,7 +40,7 @@ th {
   font-style: normal;
 }
 
-em, i, footer ul:not(.details) li, q, caption {
+em, i, footer ul:not(.details) li, q, caption, cite {
   font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
   font-style: italic;
 }
