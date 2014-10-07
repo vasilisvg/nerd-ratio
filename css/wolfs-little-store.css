@@ -527,7 +527,7 @@ body > article > div > h1 + p {
     text-align: left;
   }
 }
-@media (max-width: 34.992em) {
+@media (max-width: 42.282em) {
   body > article > div > h1 + p {
     font-size: 1em;
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
