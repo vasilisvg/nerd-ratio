@@ -142,7 +142,7 @@ body > .prevnext > div:first-of-type {
   order: 1;
   padding: 0;
 }
-@media (max-width: 33.978em) {
+@media (max-width: 46.922em) {
   body > article > h1,
   #home > h1,
   .e-content > h1,
@@ -518,7 +518,7 @@ legend,
   font-weight: bold;
 }
 
-@media (max-width: 33.978em) {
+@media (max-width: 46.922em) {
   h2,
   legend,
   #home article h1 {
@@ -530,7 +530,7 @@ h3,
   font-size: 1.618em;
 }
 
-@media (max-width: 33.978em) {
+@media (max-width: 46.922em) {
   h3,
   [itemprop="UserComment"] ul {
     font-size: 1em;

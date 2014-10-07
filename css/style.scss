@@ -118,7 +118,7 @@ body > .prevnext {
  body > .prevnext > div:first-of-type {
      @if variable-exists(ss-h1) {
          font-size: #{power($unit,$s-h1)}em;
-         @media (max-width: #{$unit*21}em) {
+         @media (max-width: #{$unit*29}em) {
              font-size: #{power($unit,$ss-h1)}em;
          }
      }
@@ -495,7 +495,7 @@ legend,
     font-weight: bold;
 }
 @if variable-exists(ss-h2) {
-@media (max-width: #{$unit*21}em) {
+@media (max-width: #{$unit*29}em) {
     h2,
     legend,
     #home article h1 {
@@ -509,7 +509,7 @@ h3,
     @if $s-h3 > 0 { font-size: #{power($unit,$s-h3)}em;  }
 }
 @if variable-exists(ss-h3) {
-@media (max-width: #{$unit*21}em) {
+@media (max-width: #{$unit*29}em) {
     h3,
     [itemprop="UserComment"] ul {
         @if $ss-h3 == 0 { font-size: 1em;  }
