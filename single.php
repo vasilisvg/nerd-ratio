@@ -14,7 +14,7 @@ else {
 ?>
 <?php flush(); ?>
 <article<?php echo $lang; ?> role="main" itemscope itemtype="http://schema.org/BlogPosting" class="h-entry">
-<h1><span><a href="/" accesskey="h">Nerd</a></span></h1>
+<h1><span><a href="/" accesskey="h">Nerd.</a></span></h1>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="e-content">
     	<h1><?php the_title(); ?></h1>
