@@ -42,7 +42,7 @@ $css = $cssName[0].'.'.$cssTime.'.css'; */
 <link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/trent-walton.css">
 <style>
 <?php 
-include "./wp-content/themes/nerd-ratio/css/trent-walton.css";
+//include "./wp-content/themes/nerd-ratio/css/trent-walton.css";
 ?>
 </style>
 <link rel="alternate" type="application/rss+xml" title="Nerd feed" href="/feed/">
