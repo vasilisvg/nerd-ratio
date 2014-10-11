@@ -40,6 +40,11 @@ $css = $cssName[0].'.'.$cssTime.'.css'; */
 
 ?>
 <link rel="stylesheet" href="/wp-content/themes/nerd-ratio/css/trent-walton.css">
+<style>
+<?php 
+include "./wp-content/themes/nerd-ratio/css/trent-walton.css";
+?>
+</style>
 <link rel="alternate" type="application/rss+xml" title="Nerd feed" href="/feed/">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="application-name" content="Nerd.">
