@@ -29,7 +29,7 @@ $amount = (count($files))-1; */
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title><?php wp_title(''); ?> ⚒ Nerd</title>
-<link rel="stylesheet" href="http://fonts.typotheque.com/WF-023273-006956.css?1">
+<link rel="stylesheet" href="http://fonts.typotheque.com/WF-023273-006956.css">
 <?php
 // get the date of the stylesheet
 /* $css = $files[rand(0,$amount)];
