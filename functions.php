@@ -113,4 +113,11 @@ function getNerdLanguage() {
 	}
 }
 
+// remove yarp css
+
+add_action( 'wp_print_styles', 'tutswp_deregister_styles', 100 );
+function tutswp_deregister_styles() {
+    wp_deregister_style( 'yarppWidgetCss' );
+}
+
 ?>
