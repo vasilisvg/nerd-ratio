@@ -26,6 +26,11 @@ body {
     font-size: .8em;
   }
 }
+@media (min-width: 70.7em) {
+  body {
+    font-size: 1.3em;
+  }
+}
 
 h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
   font-family: "Charlie SemiBold", helvetica, arial, sans-serif;
