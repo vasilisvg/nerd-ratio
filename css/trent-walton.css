@@ -21,7 +21,7 @@ body {
   text-rendering: geometricPrecision;
   -webkit-text-size-adjust: 100%;
 }
-@media (max-width: 36.372em) {
+@media (max-width: 29.694em) {
   body {
     font-size: .8em;
   }
@@ -101,7 +101,7 @@ body > footer,
 body > .prevnext {
   display: -webkit-flex;
   display: flex;
-  line-height: 1.732;
+  line-height: 1.414;
 }
 
 body > article > *,
@@ -124,8 +124,8 @@ body > .prevnext > * {
 }
 
 body > footer > * {
-  padding-top: 8.9989em;
-  padding-bottom: 1.732em;
+  padding-top: 3.9976em;
+  padding-bottom: 1.414em;
 }
 
 body > article > h1,
@@ -133,32 +133,32 @@ body > article > h1,
 .e-content > h1,
 body > footer > div:first-of-type,
 body > .prevnext > div:first-of-type {
-  font-size: 5.1957em;
+  font-size: 2.8271em;
   background: #C0D3D2;
   color: white;
-  -webkit-flex: 26.9952 1 26.9952px;
-  flex: 26.9952 1 26.9952px;
+  -webkit-flex: 63.8841 1 63.8841px;
+  flex: 63.8841 1 63.8841px;
   -webkit-order: 1;
   order: 1;
   padding: 0;
 }
-@media (max-width: 50.228em) {
+@media (max-width: 41.006em) {
   body > article > h1,
   #home > h1,
   .e-content > h1,
   body > footer > div:first-of-type,
   body > .prevnext > div:first-of-type {
-    font-size: 2.9998em;
+    font-size: 1.9994em;
   }
 }
-@media (max-width: 50.228em) {
+@media (max-width: 41.006em) {
   body > article > h1,
   #home > h1,
   .e-content > h1,
   body > footer > div:first-of-type,
   body > .prevnext > div:first-of-type {
-    -webkit-flex: 8.9989 1 8.9989px;
-    flex: 8.9989 1 8.9989px;
+    -webkit-flex: 31.9517 1 31.9517px;
+    flex: 31.9517 1 31.9517px;
   }
 }
 
@@ -166,9 +166,9 @@ body > .prevnext > div:first-of-type {
   background: inherit;
   color: inherit;
 }
-@media (max-width: 36.372em) {
+@media (max-width: 29.694em) {
   .e-content > h1 {
-    padding: 1.732em 0;
+    padding: 1.414em 0;
   }
 }
 
@@ -178,18 +178,18 @@ body > footer > nav,
 body > .prevnext > div:nth-of-type(2) {
   background: #fff;
   color: black;
-  -webkit-flex: 80.981 1 80.981px;
-  flex: 80.981 1 80.981px;
+  -webkit-flex: 255.3822 1 255.3822px;
+  flex: 255.3822 1 255.3822px;
   -webkit-order: 2;
   order: 2;
 }
-@media (max-width: 50.228em) {
+@media (max-width: 41.006em) {
   body > article > div:nth-of-type(1),
   #home > section,
   body > footer > nav,
   body > .prevnext > div:nth-of-type(2) {
-    -webkit-flex: 80.981 1 80.981px;
-    flex: 80.981 1 80.981px;
+    -webkit-flex: 255.3822 1 255.3822px;
+    flex: 255.3822 1 255.3822px;
   }
 }
 
@@ -209,19 +209,19 @@ body > footer > div:last-of-type,
 body > .prevnext > div:last-of-type,
 #home > div {
   background: #F63D46;
-  -webkit-flex: 1.732 1 1.732px;
-  flex: 1.732 1 1.732px;
+  -webkit-flex: 3.9976 1 3.9976px;
+  flex: 3.9976 1 3.9976px;
   -webkit-order: 3;
   order: 3;
   padding: 0;
 }
-@media (max-width: 41.568em) {
+@media (max-width: 33.936em) {
   body > article > div:last-of-type,
   body > footer > div:last-of-type,
   body > .prevnext > div:last-of-type,
   #home > div {
-    -webkit-flex: 1.732 1 1.732px;
-    flex: 1.732 1 1.732px;
+    -webkit-flex: 3.9976 1 3.9976px;
+    flex: 3.9976 1 3.9976px;
   }
 }
 
@@ -236,7 +236,7 @@ body > article > h1,
   padding: 11.1111vh 0;
   line-height: 1;
   /* @media (min-width: 75em) {
-      padding: 5.1957rem 1.732rem;
+      padding: 2.8271rem 1.414rem;
   } */
 }
 @media (max-aspect-ratio: 1 / 1) {
@@ -249,16 +249,16 @@ body > article > h1,
 }
 
 .e-content > h1 {
-  padding: 0 0 1.732rem;
+  padding: 0 0 1.414rem;
 }
-@media (min-width: 55.424em) {
+@media (min-width: 45.248em) {
   .e-content > h1 {
-    padding: 0 0 1.732rem;
+    padding: 0 0 1.414rem;
   }
 }
-@media (min-width: 72.744em) {
+@media (min-width: 59.388em) {
   .e-content > h1 {
-    padding: 0 0 2.9998rem;
+    padding: 0 0 1.9994rem;
   }
 }
 
@@ -294,7 +294,7 @@ body > article > h1 a:last-child:focus,
 /* @group Content {{{
 ================================================================= */
 #home > section > article {
-  margin: 0 0 5.1957em;
+  margin: 0 0 2.8271em;
   margin: 0 0 11.1111vh;
 }
 @media (max-aspect-ratio: 1 / 1) {
@@ -412,25 +412,25 @@ figure {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 2em 0 2em -2.9998rem;
-  width: calc(100% + 5.9996rem);
+  margin: 2em 0 2em -1.9994rem;
+  width: calc(100% + 3.9988rem);
 }
-@media (min-width: 36.372em) {
+@media (min-width: 29.694em) {
   figure {
-    margin: 2em 0 2em -2.9998rem;
-    width: calc(100% + 5.9996rem);
+    margin: 2em 0 2em -1.9994rem;
+    width: calc(100% + 3.9988rem);
   }
 }
-@media (min-width: 55.424em) {
+@media (min-width: 45.248em) {
   figure {
-    margin: 2em 0 2em -5.1957rem;
-    width: calc(100% + 10.3914rem);
+    margin: 2em 0 2em -2.8271rem;
+    width: calc(100% + 5.6543rem);
   }
 }
-@media (min-width: 72.744em) {
+@media (min-width: 59.388em) {
   figure {
-    margin: 2em 0 2em -8.9989rem;
-    width: calc(100% + 17.9979rem);
+    margin: 2em 0 2em -3.9976rem;
+    width: calc(100% + 7.9952rem);
   }
 }
 
@@ -441,7 +441,7 @@ figure img {
 }
 
 figure audio {
-  margin: 1.732em;
+  margin: 1.414em;
 }
 
 figure > p {
@@ -453,21 +453,21 @@ figcaption {
   width: 100%;
   border: solid #dedede;
   border-width: 1px 0 0;
-  padding: 0 1.732rem;
+  padding: 0 1.414rem;
 }
-@media (min-width: 36.372em) {
+@media (min-width: 29.694em) {
   figcaption {
-    padding: 0 2.9998rem;
+    padding: 0 1.9994rem;
   }
 }
-@media (min-width: 55.424em) {
+@media (min-width: 45.248em) {
   figcaption {
-    padding: 0 5.1957rem;
+    padding: 0 2.8271rem;
   }
 }
-@media (min-width: 72.744em) {
+@media (min-width: 59.388em) {
   figcaption {
-    padding: 0 8.9989rem;
+    padding: 0 3.9976rem;
   }
 }
 figcaption small {
@@ -479,15 +479,15 @@ figcaption small {
 }
 
 p, ul, ol, blockquote, #home article h1, h3, h2, textarea, input:not([type="submit"]), img, caption {
-  max-width: 39.836em;
+  max-width: 32.522em;
 }
 
 blockquote {
-  font-size: 1.732em;
+  font-size: 1.414em;
   margin: 0;
   padding: 0;
 }
-@media (max-width: 91.796em) {
+@media (max-width: 74.942em) {
   blockquote p {
     line-height: 1.4;
     text-align: left;
@@ -535,49 +535,49 @@ ins {
 h2,
 legend,
 #home article h1 {
-  font-size: 2.9998em;
+  font-size: 1.9994em;
   line-height: 1.2;
   font-weight: bold;
 }
 
-@media (max-width: 50.228em) {
+@media (max-width: 41.006em) {
   h2,
   legend,
   #home article h1 {
-    font-size: 1.732em;
+    font-size: 1.414em;
   }
 }
 h3,
 [itemprop="UserComment"] ul {
-  font-size: 1.732em;
+  font-size: 1.414em;
 }
 
-@media (max-width: 50.228em) {
+@media (max-width: 41.006em) {
   h3,
   [itemprop="UserComment"] ul {
     font-size: 1em;
   }
 }
 [itemprop="UserComment"] {
-  margin: 2.9998em 0;
+  margin: 1.9994em 0;
 }
 
 article aside,
 article > div > section {
-  margin: 8.9989em 0;
+  margin: 3.9976em 0;
 }
 
 body > article > div > h1 + p {
-  font-size: 1.732em;
+  font-size: 1.414em;
   margin: .5em 0 1em;
 }
-@media (max-width: 91.796em) {
+@media (max-width: 74.942em) {
   body > article > div > h1 + p {
     line-height: 1.4;
     text-align: left;
   }
 }
-@media (max-width: 50.228em) {
+@media (max-width: 41.006em) {
   body > article > div > h1 + p {
     font-size: 1em;
     font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
@@ -597,7 +597,7 @@ body > article > div > h1 + p {
 
 input, textarea {
   border: 1px solid #F63D46;
-  padding: 0.433em;
+  padding: 0.3535em;
 }
 
 ul {
@@ -663,7 +663,7 @@ textarea {
   width: 100%;
   border-radius: .2em;
 }
-@media (max-width: 36.372em) {
+@media (max-width: 29.694em) {
   input,
   textarea {
     font-size: 1.3em;
@@ -691,7 +691,7 @@ textarea {
 }
 
 table {
-  margin: 1.732em 0;
+  margin: 1.414em 0;
   caption-side: bottom;
 }
 
@@ -699,7 +699,7 @@ caption,
 th,
 td {
   text-align: left;
-  padding: 0.5196em;
+  padding: 0.4242em;
 }
 
 td.num {
