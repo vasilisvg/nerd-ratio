@@ -21,7 +21,7 @@ c.appendChild(m.a);document.body.appendChild(c);n=k.a.offsetWidth;p=l.a.offsetWi
 a(h))}}setTimeout(function(){w();y(h)},3E3);t(k,function(a){f=a;x()});r(k,h.family+",sans-serif",b);t(l,function(a){d=a;x()});r(l,h.family+",serif",b);t(m,function(a){g=a;x()});r(m,h.family+",monospace",b)})};window.FontFaceObserver=u;window.FontFaceObserver.prototype.check=u.prototype.a;}());
 var observer1 = new FontFaceObserver('Fedra Sans Screen Regular', {});
 var observer2 = new FontFaceObserver('Fedra Sans Screen Italic', {
-    style: italic
+    
 });
 var observer3 = new FontFaceObserver('Fedra Sans Screen Bold', {
     
