@@ -24,15 +24,13 @@ var observer2 = new FontFaceObserver('Fedra Sans Screen Italic', {
     style: italic
 });
 var observer3 = new FontFaceObserver('Fedra Sans Screen Bold', {
-    weight: bold
+    
 });
 var observer4 = new FontFaceObserver('Fedra Sans Screen Bold Italic', {
-    weight: bold,
-    style: italic
+    
 });
 var observer5 = new FontFaceObserver('Fedra Mono Screen Regular', {
-    style: normal,
-    weight: normal
+    
 });
 var observer6 = new FontFaceObserver('Charlie SemiBold', {});
 
