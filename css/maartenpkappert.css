@@ -37,6 +37,16 @@ body {
 }
 
 h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+.charlie-loaded h1,
+.charlie-loaded h2,
+.charlie-loaded h3,
+.charlie-loaded h4,
+.charlie-loaded [itemprop="UserComment"] ul,
+.charlie-loaded legend {
   font-family: "Charlie SemiBold", helvetica, arial, sans-serif;
   font-weight: bold;
 }
