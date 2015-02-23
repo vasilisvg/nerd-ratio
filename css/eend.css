@@ -44,23 +44,51 @@ h1, h2, h3, h4, [itemprop="UserComment"] ul, legend {
 b,
 em strong,
 th {
-  font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-weight: bold;
   font-style: normal;
 }
 
+.fedra-bold-loaded b,
+.fedra-bold-loaded em strong,
+.fedra-bold-loaded th {
+  font-family: "Fedra Sans Screen Bold", helvetica, arial, sans-serif;
+}
+
 em, i, footer ul:not(.details) li, q, caption, cite {
-  font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-style: italic;
 }
 
+.fedra-italic-loaded em,
+.fedra-italic-loaded i,
+.fedra-italic-loaded footer ul:not(.details) li,
+.fedra-italic-loaded q,
+.fedra-italic-loaded caption,
+.fedra-italic-loaded cite {
+  font-family: "Fedra Sans Screen Italic", helvetica, arial, sans-serif;
+}
+
 strong {
-  font-family: "Fedra Sans Screen Bold Italic", helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-style: italic;
   font-weight: bold;
 }
 
+.fedra-bold-italic-loaded strong {
+  font-family: "Fedra Sans Screen Bold Italic", helvetica, arial, sans-serif;
+}
+
 code, pre, kbd, td.num {
+  font-family: monospace;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+.fedra-mono-loaded code,
+.fedra-mono-loaded pre,
+.fedra-mono-loaded kbd,
+.fedra-mono-loaded td.num {
   font-family: "Fedra Mono Screen Regular", monospace;
   font-weight: normal !important;
   font-style: normal !important;
