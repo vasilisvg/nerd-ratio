@@ -19,38 +19,10 @@ function s(a){var b=a.a.offsetWidth,c=b+100;a.e.style.width=c+"px";a.c.scrollLef
 u.prototype.a=function(a){a=a||"BESbswy";var b="font-style:"+this.style+";font-variant:"+this.variant+";font-weight:"+this.weight+";font-stretch:"+this.stretch+";font-feature-settings:"+this.featureSettings+";-moz-font-feature-settings:"+this.featureSettings+";-webkit-font-feature-settings:"+this.featureSettings+";",c=document.createElement("div"),k=new e(a),l=new e(a),m=new e(a),f=-1,d=-1,g=-1,n=-1,p=-1,q=-1,h=this;r(k,"sans-serif",b);r(l,"serif",b);r(m,"monospace",b);c.appendChild(k.a);c.appendChild(l.a);
 c.appendChild(m.a);document.body.appendChild(c);n=k.a.offsetWidth;p=l.a.offsetWidth;q=m.a.offsetWidth;return new Promise(function(a,y){function w(){null!==c.parentNode&&document.body.removeChild(c)}function x(){if(-1!==f&&-1!==d&&-1!==g&&f===d&&d===g){if(null===v){var b=/AppleWeb[kK]it\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent);v=!!b&&(536>parseInt(b[1],10)||536===parseInt(b[1],10)&&11>=parseInt(b[2],10))}v?f===n&&d===n&&g===n||f===p&&d===p&&g===p||f===q&&d===q&&g===q||(w(),a(h)):(w(),
 a(h))}}setTimeout(function(){w();y(h)},3E3);t(k,function(a){f=a;x()});r(k,h.family+",sans-serif",b);t(l,function(a){d=a;x()});r(l,h.family+",serif",b);t(m,function(a){g=a;x()});r(m,h.family+",monospace",b)})};window.FontFaceObserver=u;window.FontFaceObserver.prototype.check=u.prototype.a;}());
-var observer1 = new FontFaceObserver('Fedra Sans Screen Regular', {});
-var observer2 = new FontFaceObserver('Fedra Sans Screen Italic', {
-    
-});
-var observer3 = new FontFaceObserver('Fedra Sans Screen Bold', {
-    
-});
-var observer4 = new FontFaceObserver('Fedra Sans Screen Bold Italic', {
-    
-});
-var observer5 = new FontFaceObserver('Fedra Mono Screen Regular', {
-    
-});
-var observer6 = new FontFaceObserver('Charlie SemiBold', {});
+var observer = new FontFaceObserver('Fedra Sans Screen Regular', {});
 
-observer1.check().then(function () {
-  document.documentElement.className += " fedra-regular-loaded";
-});
-observer2.check().then(function () {
-  document.documentElement.className += " fedra-italic-loaded";
-});
-observer3.check().then(function () {
-  document.documentElement.className += " fedra-bold-loaded";
-});
-observer4.check().then(function () {
-  document.documentElement.className += " fedra-bold-italic-loaded";
-});
-observer5.check().then(function () {
-  document.documentElement.className += " fedra-mono-loaded";
-});
-observer6.check().then(function () {
-  document.documentElement.className += " charlie-loaded";
+observer.check().then(function () {
+  document.documentElement.className += " fonts-loaded";
 });
 </script>
 <?php
