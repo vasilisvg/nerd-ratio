@@ -2,7 +2,7 @@
 Error: Undefined variable: "$unit".
         on line 17 of /Users/gemev/Sites/nerd-blog/wp-content/themes/nerd-ratio/css/style.scss
 
-12:     font: 100%/1.5 "Fedra Sans Screen Regular", helvetica, arial, sans-serif;
+12:     font: 100%/1.5 helvetica, arial, sans-serif;
 13:     margin: 0;
 14:     padding: 0;
 15:     text-rendering: geometricPrecision;
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$unit\".\A         on line 17 of /Users/gemev/Sites/nerd-blog/wp-content/themes/nerd-ratio/css/style.scss\A \A 12:     font: 100%/1.5 \"Fedra Sans Screen Regular\", helvetica, arial, sans-serif;\A 13:     margin: 0;\A 14:     padding: 0;\A 15:     text-rendering: geometricPrecision;\A 16:     -webkit-text-size-adjust: 100%;\A 17:     @media (max-width: #{$unit*21}em) {\A 18:         font-size: .8em;\A 19:     }\A 20:     @media (min-width: #{$unit*50}em) {\A 21:         font-size: 1.3em;\A 22:     }"; }
+  content: "Error: Undefined variable: \"$unit\".\A         on line 17 of /Users/gemev/Sites/nerd-blog/wp-content/themes/nerd-ratio/css/style.scss\A \A 12:     font: 100%/1.5 helvetica, arial, sans-serif;\A 13:     margin: 0;\A 14:     padding: 0;\A 15:     text-rendering: geometricPrecision;\A 16:     -webkit-text-size-adjust: 100%;\A 17:     @media (max-width: #{$unit*21}em) {\A 18:         font-size: .8em;\A 19:     }\A 20:     @media (min-width: #{$unit*50}em) {\A 21:         font-size: 1.3em;\A 22:     }"; }
