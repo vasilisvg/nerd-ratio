@@ -4,7 +4,7 @@ Error: Undefined variable: "$unit".
 
 13:     margin: 0;
 14:     padding: 0;
-15:     letter-spacing: 0.19em;
+15:     letter-spacing: 0.019em;
 16:     text-rendering: geometricPrecision;
 17:     -webkit-text-size-adjust: 100%;
 18:     @media (max-width: #{$unit*21}em) {
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$unit\".\A         on line 18 of /Users/gemev/Sites/nerd-blog/wp-content/themes/nerd-ratio/css/style.scss\A \A 13:     margin: 0;\A 14:     padding: 0;\A 15:     letter-spacing: 0.19em;\A 16:     text-rendering: geometricPrecision;\A 17:     -webkit-text-size-adjust: 100%;\A 18:     @media (max-width: #{$unit*21}em) {\A 19:         font-size: .8em;\A 20:     }\A 21:     @media (min-width: #{$unit*50}em) {\A 22:         font-size: 1.3em;\A 23:     }"; }
+  content: "Error: Undefined variable: \"$unit\".\A         on line 18 of /Users/gemev/Sites/nerd-blog/wp-content/themes/nerd-ratio/css/style.scss\A \A 13:     margin: 0;\A 14:     padding: 0;\A 15:     letter-spacing: 0.019em;\A 16:     text-rendering: geometricPrecision;\A 17:     -webkit-text-size-adjust: 100%;\A 18:     @media (max-width: #{$unit*21}em) {\A 19:         font-size: .8em;\A 20:     }\A 21:     @media (min-width: #{$unit*50}em) {\A 22:         font-size: 1.3em;\A 23:     }"; }
